@@ -1,0 +1,13 @@
+
+/* this is for transparent backgrounds -- add this to all the specific styles that use the LESS code .trans-bg */
+header nav ul li a:hover, header nav ul li a.active{
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr=#26302603, endColorstr=#26302603);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26302603, endColorstr=#26302603)";
+	zoom:1;
+}
+
+/* banner gradient */
+.gradient-bg {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=0 ); /* IE6-9 */	
+}
