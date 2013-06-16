@@ -1,0 +1,65 @@
+// responsive.scss
+
+
+// Colors
+$bnrLightGrey:    #dadada;
+$bnrGrey:         #808285;
+$bnrDarkGrey:     #333333;
+$bnrLightYellow:  #fffcd7;
+$yellow:          #EED27C;
+$bnrYellow:       #e8ae10;
+$bnrBurntYellow:  #bb8d0a;
+$orange:          #ff6666;
+$bnrGreen:        #766000;
+$red:             #d30b0b;
+
+
+
+// Mixins and functions
+
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@function remCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1rem;
+}
+
+@mixin remFont($pxWidth) {
+  font-size: #{$pxWidth}px;
+  font-size: #{$pxWidth / 16}rem;
+}
+
+@mixin remProperty ($property, $pxWidth) {
+  #{$property}: #{$pxWidth}px;
+  #{$property}: #{$pxWidth / 16}rem;
+}
+
+@mixin header-font($size: 16, $color: #fff, $weight: 400, $style: normal) {
+  color:$color;
+  font-family: "futura-pt", sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: remCalc($size);
+}
+
+@mixin header-font-condensed($size: 16, $color: #fff, $weight: 700, $style: normal) {
+  color:$color;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: remCalc($size);
+}
+
+@mixin content-font($size: 16, $color: #fff, $weight: normal, $style: normal) {
+  color:$color;
+  font-family: Arial, Verdana, sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: remCalc($size);
+}
+
