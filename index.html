@@ -13,10 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/vendor/custom.modernizr.js"></script>
 
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/h/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/m/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" href="images/l/apple-touch-icon-precomposed.png">
-    <link rel="shortcut icon" href="images/l/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="old/images/h/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="old/images/m/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="old/images/l/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="old/images/l/apple-touch-icon.png">
 
     <link rel="stylesheet" href="css/app.css">
     <!--[if lt IE 9]><!--> <script src="js/vendor/respond.min.js"></script> <!--<![endif]-->
@@ -27,28 +27,578 @@
 <body>
 
 
+<div id="fullContainer">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<header>
+    <div class="fb-container">
+        <div class="fb_text"><h6>Like us!</h6></div>
+        <div id="fb_like">
+
+            <!--<div class="fbCodeContainer">-->
+                <!--<div id="fb-root"></div>-->
+                <!--<script>(function(d, s, id) {-->
+                    <!--var js, fjs = d.getElementsByTagName(s)[0];-->
+                    <!--if (d.getElementById(id)) return;-->
+                    <!--js = d.createElement(s); js.id = id;-->
+                    <!--js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";-->
+                    <!--fjs.parentNode.insertBefore(js, fjs);-->
+                <!--}(document, 'script', 'facebook-jssdk'));</script>-->
+
+                <!--<div class="fb-like" data-href="https://www.facebook.com/bignerdranch" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false" data-font="arial"></div>-->
+            <!--</div>-->
+
+        </div>
+    </div>
+    <a href="index.html" title="Home"><div class="clickable"></div></a>
+    <div id="logo"></div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" title="Home" id="home_link" class="topLink active"><em>home</em></a>
+            </li>
+
+            <li>
+                <a href="training.html" class="topLink ">training</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="classes.html">Classes</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="corporate.html">Corporate Training</a></li>
+                            <li><a href="locations.html">Locations</a></li>
+                            <li><a href="gift_certificates.html" title="Locations">Gift Certificates</a></li>
+                            <li><a href="signin.html" target="_blank">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="app-development.html" class="topLink ">consulting</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="app-development/about.html">About</a></li>
+                            <li><a href="app-development/process.html">Our Process</a></li>
+                            <li><a href="app-development/clients.html">Clients &amp; Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="apps.html" class="topLink ">our apps</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="apps/catalog.html">Catalog</a></li>
+                            <li><a href="apps/directory.html">Directory</a></li>
+                            <li><a href="apps/eclicker-presenter-ios.html">eClicker Presenter iOS</a></li>
+                            <li><a href="apps/eclicker-presenter-mac.html">eClicker Presenter Mac</a></li>
+                            <li><a href="apps/eclicker-audience.html">eClicker Audience</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="books.html" class="topLink ">books</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="book/advanced_mac_os_x_programming_rd_edition_.html">Advanced Mac OS X Programming</a></li>
+                            <li><a href="book/android_the_big_nerd_ranch_guide.html">Android Programming</a></li>
+                            <li><a href="book/cocoa_programming_for_mac_os_x_th_edition_.html">Cocoa Programming</a></li>
+                            <li><a href="book/ios_programming_the_big_nerd_ranch_guide_rd_edition_.html">iOS Programming</a></li>
+                            <li><a href="book/objective-c_programming_the_big_nerd_ranch_guide.html">Objective-C Programming</a></li>
+                            <li><a href="books/faq.html">Book FAQs</a><li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="about_us.html" class="topLink ">about</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="about_us/big-nerd-way.html">The Big Nerd Way</a></li>
+                            <li><a href="about_us/nerds.html">Meet the Team</a></li>
+                            <li><a href="about_us/careers.html">Nerd Careers</a></li>
+                            <li><a href="about_us/awards.html">Awards and Accolades</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="ranch-report.html" class="topLink ">nerd news</a>
+                <div class="subNavBox">
+                    <div class="subNavContainer">
+                        <ul class="subNav">
+                            <li><a href="http://weblog.bignerdranch.com/" target="_blank">The Nerd Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li><a href="contact.html" class="topLink ">contact</a></li>
+
+        </ul>
+    </nav>
+    <div id="navOff"></div>
+</header>
 
 
 
-    <!--<script src="js/vendor/zepto.js"></script>-->
+
+
+
+<div role="main" id="main">
+<div id="slideshowFull">
+    <div id="slideshowArt">
+        <div id="slideshowElements">
+
+            <div id="homeSlideShow" class="carousel slide">
+                <!-- Carousel items -->
+                <div id="homeSlideShowSlides" class="carousel-inner">
+                    <div class="active item">
+                        <a href="highgroove.html">
+                            <img src="old/images/merger.jpg" width="628" height="308" alt="Big Nerd Ranch + Highgroove">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="http://blog.bignerdranch.com/3001-cocoa-got-blocks/" target="_blank">
+                            <img src="old/images/banners/home-cocoa-got-blocks.jpg" width="628" height="308" alt="WWDC">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="locations/monterey.html">
+                            <img src="old/images/banners/home-go-west.jpg" width="628" height="308" alt="Go West">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="book/android_the_big_nerd_ranch_guide.html">
+                            <img src="old/images/banners/home-android.jpg" width="628" height="308" alt="Android Programming - The Big Nerd Ranch Guide">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="locations/netherlands.html"><img src="old/images/banners/bnr-eu-netherlands.jpg" width="628" height="308" alt="Bootcamps in the Netherlands">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="http://www.inc.com/inc5000/profile/big-nerd-ranch" target="_blank"><img src="old/images/homebanner-inc5000.jpg" width="628" height="308" alt="Inc5000">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="classes/advanced_mac_os_x.html"><img src="old/images/home2.jpg" width="628" height="308" alt="Advanced iOS Bootcamp Banner">
+                        </a>
+                    </div>
+                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="index.html#homeSlideShow" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="index.html#homeSlideShow" data-slide="next">&rsaquo;</a>
+            </div>
+
+            <div id="slideShowBanner">
+                <img src="old/images/home_slideShow_banner.png" width="138" height="137" alt="Latest News Ribbon">
+            </div>
+            <div id="homeTopRightInfo">
+                <div id="yellowBox">
+                    <div id="activeTitle"  class="activeInfo">
+                        <h1><span class="thinHeaderTxt">Welcome To</span></h1>
+                        <h2>Big Nerd Ranch</h2>
+                    </div>
+                    <hr/>
+                    <div class="topRightInfoTxt">
+                        <h3><a href="training.html">TRAINING</a> &amp; <a href="books.html">BOOKS</a></h3>
+                        <p>Bootcamps and corporate training let you learn the most popular programming languages from the Nerds who wrote the books on them. Literally.</p>
+                    </div>
+                    <hr/>
+                    <div class="topRightInfoTxt">
+                        <h3><a href="app-development.html">CONSULTING</a></h3>
+                        <p>Sometimes, there actually <i>isn’t</i> an app<br>
+                            for that. We’ll work with you to create <br>
+                            the app you need and seamlessly <br>
+                            integrate it with your infrastructure.</p>
+                    </div>
+                    <div id="yellowBoxHat">
+                        <img src="old/images/home_top_right_hat.png" width="174" height="174" alt="Hat">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="midSectionHeadline"></div>
+
+<div id="midSection">
+    <div id="home_columns" class="clearfix">
+        <div id="home_recent_blog_posts" class="home_col">
+            <div class="section-box-banner">
+                <div class="banner-text">
+                    <span class="bannerGreen">RECENT</span>
+                    <span class="bannerYellow">BLOGS</span>
+                </div>
+                <a href="feed://weblog.bignerdranch.com/feed/" class="icon" data-icon="iconRSS" title="blog archive"><em>rss</em></a>
+            </div>
+
+            <article class="blog-brief home-blog-brief one">
+                <a href="http://weblog.bignerdranch.com/729-notifications-part-2-handling-and-spying/" target="_blank">
+                    <div class="date-banner-sm">
+                        <span class="mon">Jul</span>
+                        <span class="numberDay">16</span>
+                    </div>
+                    <p class="blog-title">Notifications, part 2 – Handling and Spying</p>
+                    <!-- <p class="blog-txt">With the classic notification registration API, you specify an object to be sent a message, and the selector to use. That message can take at most one argument, which is a pointer to an NSNotification object. [...continued]</p> -->
+                    <p class="blog-txt">Grand Central Dispatch, a.k.a libdispatch and usually referred to as GCD, is a low-level API known for performing asynchronous background work. <code>dispatch_async</code> is its poster child: “Throw this block on a background thread to do some work, and inside of that block toss another block on the main thread to update the UI.” Not all of GCD is asynchronous, though.… [...continued]</p>
+                </a>
+            </article>
+
+            <article class="blog-brief home-blog-brief two">
+                <a href="http://weblog.bignerdranch.com/726-notifications-part-1-registering-and-posting/" target="_blank">
+                    <div class="date-banner-sm">
+                        <span class="mon">Jul</span>
+                        <span class="numberDay">12</span>
+                    </div>
+                    <p class="blog-title">Notifications, part 1 – Registering and Posting</p>
+                    <!-- <p class="blog-txt">Notifications on the brain. Last time was a bug report about something I stumbled across when debugging some notification-related stuff. Before pursuing that much farther, I figured I’d talk about notifications.  [...continued]</p> -->
+                    <p class="blog-txt">Since joining Big Nerd Ranch in April 2011, I have grown by leaps and bounds as a software developer and consultant, and I’m surrounded by the best team I’ve ever worked with. But despite this, my personal career goals and aspirations include giving up coding altogether.… [...continued]</p>
+                </a>
+            </article>
+
+        <span class="sectionFooterBanner">
+				  <a href="http://weblog.bignerdranch.com/" title="Older Posts" data-icon="arrow">Older Posts</a>
+        </span>
+        </div>
+
+        <div id="home_upcoming_classes" class="home_col">
+
+            <div class="section-box-banner">
+                <div class="banner-text"><span class="bannerGreen">Upcoming</span> <span class="bannerYellow">Classes</span></div>
+            </div>
+            <div class="class_listing">
+
+                <div class="class_item">
+                    <a href="classes/opengl_es.html"><b>OpenGL ES</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jun 17-21,
+
+                        2013
+                    </i>
+                </b> | Atlanta, Georgia</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/beginning_ios_iphone-ipad.html"><b>Beginning iOS (iPhone/iPad)</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jun 22-28,
+
+                        2013
+                    </i>
+                </b> | Atlanta, Georgia</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/beginning_ios_iphone-ipad.html"><b>Beginning iOS (iPhone/iPad)</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jun 29-5,
+
+                        2013
+                    </i>
+                </b> | Epe, The Netherlands</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/beginning_ios_iphone-ipad.html"><b>Beginning iOS (iPhone/iPad)</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jul 6-12,
+
+                        2013
+                    </i>
+                </b> | Atlanta, Georgia</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/beginning_ios_iphone-ipad.html"><b>Beginning iOS (iPhone/iPad)</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jul 13-19,
+
+                        2013
+                    </i>
+                </b> | BNR West, California</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/advanced_ios_programming.html"><b>Advanced iOS Programming</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jul 15-19,
+
+                        2013
+                    </i>
+                </b> | Epe, The Netherlands</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/html_apps_with_jquery.html"><b>HTML5 Apps with jQuery</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jul 15-19,
+
+                        2013
+                    </i>
+                </b> | Atlanta, Georgia</span>
+                </div>
+
+                <div class="class_item">
+                    <a href="classes/android.html"><b>Android</b></a><br/>
+            <span class="class_info">
+            	<b>
+                    <i>
+
+                        Jul 22-26,
+
+                        2013
+                    </i>
+                </b> | BNR West, California</span>
+                </div>
+
+            </div>
+
+
+            <!--TEMPORARY, Needs to be removed after class-->
+            <div class="class_listing temp-class-listing">
+                <div class="class_item">
+                    <a href="classes/beginning_ios_iphone-ipad.html"><b>Beginning iOS (iPhone/iPad)</b></a><br>
+            <span class="class_info">
+              <b><i>Jul 13-20, 2013</i></b> | Monterey, California
+            </span>
+                </div>
+            </div>
+
+        <span class="sectionFooterBanner">
+			    <a href="schedule.html" title="Full Schedule" data-icon="arrow">Full Schedule</a>
+        </span>
+        </div>
+
+        <div id="home_twitter_col" class="home_col">
+            <div id="home_twitter_box" class="home_twitter">
+                <article class="home-twiter-post">
+                    <span class="twitter-name">Aaron Hillegass <span class="twitter-name-link"><a href="about_us/nerds/aaron_hillegass.html" title="Who's Aaron">Who&#x27;s Aaron?</a></span></span>
+                    <img class="twitterPic" src="old/images/home_twitter_profile_pic_temp.png" width="58" height="61" alt="Twitter Profile Pic">
+                    <span id="aarontweet"></span>
+                    <a href="http://twitter.com/#!/AaronHillegass" target="_blank" title="Follow Aaron" class="twitterfollow"><img src="old/images/bannerIcon-twitter.png" width="26" height="26" alt="Small Twitter Logo"> + Follow Aaron</a>
+                </article>
+
+                <hr/>
+
+                <article class="home-twiter-post">
+                    <span class="twitter-name">Big Nerd Ranch</span>
+                    <span id="bnrtweet"></span>
+                    <a href="http://twitter.com/#!/BigNerdRanch" target="_blank" title="Follow Big Nerd Ranch" class="twitterfollow"><img src="old/images/bannerIcon-twitter.png" width="26" height="26" alt="Small Twitter Logo"> + Big Nerd Ranch</a>
+                </article>
+            </div>
+            <div class="home_twitter_after">
+                <img src="old/images/twitter_box_bottom_bird_2.png" width="288" height="103" alt="Bird">
+                <!-- <img src="/images/twitter_box_bottom_bird.png" width="288" height="121" alt="Twitter Box Bottom Bird"> -->
+            </div>
+        </div>
+    </div>
+</div>
+<div id="home_mid_title">
+    <h4>Our Nerd family keeps growing! Meet some of our clients:</h4>
+</div>
+<div id="client_carousel">
+    <div id="carouselWrapper">
+        <div id="slider1" class="slider">
+            <ul>
+                <li><img src="old/images/client_logos/pg.png" width="97" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/att.png" width="61" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/ms.png" width="135" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/google.png" width="118" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/ge.png" width="68" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/delta.png" width="155" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/boeing.png" width="147" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/wholefoods.png" width="123" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/pearson.png" width="159" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/mayo.png" width="82" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/intuit.png" width="158" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/benz.png" width="122" height="91" alt="Client Logo"></li>
+                <li><img src="old/images/client_logos/boa.png" width="151" height="91" alt="Client Logo"></li>
+            </ul>
+        </div>
+        <div class="controls">
+            <a href="index.html#" class="prev-slide"><img src="old/images/carousel_arrow_l.png" width="17" height="91" alt="Carousel Arrow L"></a>
+            <a href="index.html#" class="next-slide"><img src="old/images/carousel_arrow_r.png" width="17" height="91" alt="Carousel Arrow R"></a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+<footer>
+    <div id="footer-container">
+        <div id="col_1" class="footerCol">
+            <h4>Contact Us</h4>
+            <p class="usOffice">
+                <b>United States Office</b><br/>
+                1989 College Ave NE<br/>
+                Atlanta, GA 30317<br/>
+                United States of America<br/>
+                Phone: (770) 817-6373<br/>
+
+                <a href="contact.html">Send an email</a>
+            </p>
+            <p class="europeOffice" style="display: none;">
+                <b>Europe Office</b><br/>
+                Kaap Noord<br />
+                Asterweg 19 C5<br/>
+                1031 HL Amsterdam<br/>
+                The Netherlands<br/>
+                Phone: +31 6 28 833 433<br/>
+                <a href="mailto:europe@bignerdranch.com">Send an email</a>
+            </p>
+            <a href="index.html#" class="officeInfoEU">Europe Contact Info</a>
+            <a href="index.html#" class="officeInfoUS" style="display: none;">U.S. Contact Info</a>
+        </div>
+
+        <div id="col_2" class="footerCol">
+            <h4>Social Nerds</h4>
+            <div id="socialNerd">
+                <a href="http://www.facebook.com/bignerdranch" target="_blank" title="Social Nerd" id="fb_socialLink" class="footer-social-links">
+                    <img src="old/images/footer-social-fb-btn-over.png" width="35" height="35" alt="Footer Social Fb Btn Over">
+                    <span class="socialCount"><span id="facebookCount">2,495</span> Fans</span>
+                </a>
+
+                <a href="http://www.twitter.com/bignerdranch" target="_blank" id="tw_socialLink" title="Twitter" class="footer-social-links">
+                    <img src="old/images/footer-social-tw-btn-over.png" width="35" height="35" alt="Footer Social Tw Btn Over">
+                    <span class="socialCount"><span id="twitterCount">2,843</span> Followers</span>
+                </a>
+
+                <a href="http://weblog.bignerdranch.com" target="_blank" id="bl_socialLink" title="Blog" class="footer-social-links"><img src="old/images/footer-social-blog-btn-over.png" width="35" height="35" alt="Footer Social Blog Btn Over"></a>
+
+                <a href="http://www.youtube.com/user/BigNerdRanchVideo" target="_blank" id="yt_socialLink" class="footer-social-links" title="Youtube"><img src="old/images/footer-social-youtube-btn-over.png" width="35" height="35" alt="Footer Social Youtube Btn Over"></a>
+
+                <a href="http://plus.google.com/u/0/b/113534704509596161677/113534704509596161677/posts" target="_blank" id="gp_socialLink" class="footer-social-links" title="Google Plus"><img src="old/images/footer-social-googleplus-btn-over.png" width="35" height="35" alt="Footer Social Googleplus Btn Over"></a>
+
+                <a href="http://www.flickr.com/photos/bignerdranchphotos" target="_blank" id="fl_socialLink" class="footer-social-links" title="Flickr"><img src="old/images/footer-social-flickr-btn_over.png" width="35" height="35" alt="Footer Social Flickr Btn Over"></a>
+
+                <a href="http://www.linkedin.com/company/271880?goback=.fcs_GLHD_big+nerd+ranch_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits" target="_blank" id="li_socialLink" class="footer-social-links" title="LinkedIn"><img src="old/images/footer-social-linkedin-btn-over.png" width="35" height="35" alt="Footer Social Linkedin Btn Over"></a>
+            </div>
+        </div>
+        <div id="col_3" class="footerCol"></div>
+        <div id="col_4" class="footerCol">
+            <h4>Stay Connected</h4>
+            <p><b><a href="index.html#" title="Ranch Report">Click here</a></b> to view the latest Ranch Report or get it in your inbox.</p>
+            <a href="ranch-report.html"><img src="old/images/footer_ranch_report.png" width="192" height="42" alt="Footer Ranch Report"></a>
+
+            <div id="mc_embed_signup">
+                <form action="http://bignerdranch.us2.list-manage.com/subscribe/post?u=7f16dd989403359d5de17bf42&amp;id=fda4db3715" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <div class="mc-field-group base">
+                        <input type="email" value="" name="EMAIL" class="required email rounded" placeholder="you@youremail.com" style="width:162px;" id="mce-EMAIL">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <a href="index.html#" id="searchInputSubmit_side" class="inputSubmitArrow2 base"><em>submit</em></a>
+                    <div class="clear"><input type="submit" id="submit_newsletter_side" name="submit_newsletter_side" /></div>
+                </form>
+            </div>
+        </div>
+        <div id="col_5" class="footerCol">
+            <h4 style="text-align:center;">Nerd Awards</h4>
+            <a href="about_us/awards.html"><img src="old/images/footer_nerd_award_best_workplace.png" width="120" height="142" alt="Footer Nerd Award Best Workplace" class="best-workplace"></a>
+            <a href="http://www.inc.com/inc5000/profile/big-nerd-ranch" target="_blank"><img src="old/images/inc5000.png" width="96" height="67" alt="Footer Nerd Award Inc. 500" class="inc-5000"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">home</a></li>
+                <li><a href="training.html" title="Training">training</a></li>
+                <li><a href="app-development.html" title="Consulting">consulting</a></li>
+                <li><a href="apps.html" title="Our Apps">our apps</a></li>
+                <li><a href="books.html" title="Books">books</a></li>
+                <li><a href="about_us.html" title="About">about</a></li>
+                <li><a href="http://weblog.bignerdranch.com/" target="_blank" title="Nerd News">nerd news</a></li>
+                <li><a href="contact.html" title="Contact" class="last">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="studentLoginBtn">
+            <a class="btn" href="signin.html" target="_blank" title="Student Login">
+                <img src="old/images/footer_student_login_btn.png" width="147" height="33" alt="Student Login Button">
+            </a>
+        </div>
+    </div>
+
+    <div id="legal_info">
+        <p id="legalText">Copyright© 1998 - 2013 Big Nerd Ranch, Inc. All Rights Reserved.  |  <a href="privacy.html" title="Privacy Policy">Privacy Policy</a></p>
+    </div>
+</footer>
+
+
+
+
+
+    <!--<script src="old/js/vendor/zepto.js"></script>-->
     <script src="js/vendor/jquery.js"></script>
-
     <script src="js/foundation/foundation.js"></script>
 
-    <!--<script src="js/foundation/foundation.alerts.js"></script>	-->
-    <!--<script src="js/foundation/foundation.clearing.js"></script>	-->
-    <!--<script src="js/foundation/foundation.cookie.js"></script>	-->
-    <!--<script src="js/foundation/foundation.dropdown.js"></script>	-->
-    <!--<script src="js/foundation/foundation.forms.js"></script>	-->
-    <!--<script src="js/foundation/foundation.interchange.js"></script>	-->
-    <!--<script src="js/foundation/foundation.joyride.js"></script>	-->
-    <!--<script src="js/foundation/foundation.magellan.js"></script>	-->
-    <!--<script src="js/foundation/foundation.orbit.js"></script>	-->
-    <!--<script src="js/foundation/foundation.placeholder.js"></script>	-->
-    <!--<script src="js/foundation/foundation.reveal.js"></script>	-->
-    <!--<script src="js/foundation/foundation.section.js"></script>	-->
-    <!--<script src="js/foundation/foundation.tooltips.js"></script>	-->
-    <!--<script src="js/foundation/foundation.topbar.js"></script>-->
+    <script src="old/js/libs/lemmon-slider.js" type="text/javascript" charset="utf-8"></script>
+    <script src="old/js/libs/moment.js" type="text/javascript"></script>
+    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script src="old/js/libs/bootstrap-js/bootstrap-transition.js"></script>
+    <script src="old/js/libs/bootstrap-js/bootstrap-carousel.js"></script>
+    
+    <script src="old/js/plugins.js"></script>
+    <script src="old/js/script.js"></script>
+
+    <!--<script src="old/js/foundation/foundation.alerts.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.clearing.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.cookie.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.dropdown.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.forms.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.interchange.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.joyride.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.magellan.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.orbit.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.placeholder.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.reveal.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.section.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.tooltips.js"></script>	-->
+    <!--<script src="old/js/foundation/foundation.topbar.js"></script>-->
   
   <script>
     $(document).foundation();

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Big Nerd Ranch Blog</title>
+	<atom:link href="http://blog.bignerdranch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.bignerdranch.com</link>
+	<description>We offer classes for programmers in a resort-like setting, and this is our blog.</description>
+	<lastBuildDate>Fri, 14 Jun 2013 05:13:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.2</generator>
+		<item>
+		<title>Cocoa Got Blocks</title>
+		<link>http://blog.bignerdranch.com/3001-cocoa-got-blocks/</link>
+		<comments>http://blog.bignerdranch.com/3001-cocoa-got-blocks/#comments</comments>
+		<pubDate>Fri, 14 Jun 2013 05:13:25 +0000</pubDate>
+		<dc:creator>Tasha Schroeder</dc:creator>
+				<category><![CDATA[Awesome Studliness]]></category>
+		<category><![CDATA[Cocoa]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=3001</guid>
+		<description><![CDATA[<p><p><a href="http://bit.ly/18Emldn"></a></p>
+<p>Nerd extraordinaire <a href="http://www.bignerdranch.com/about_us/nerds/steve_sparks">Steve Sparks</a> wrote a new take on a classic that we know you&#8217;re going to love. Check it out on <a href="http://bit.ly/18Emldn">Vimeo</a> or on <a href="http://bit.ly/10h6dLg">YouTube</a>.</p>
+Cocoa Got Blocks
+
+
+
+<p style="text-align: center;">Oh. My. God. Becky&#8230;<br /> Look at this code. It is so big.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3001-cocoa-got-blocks/">Cocoa Got Blocks</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://bit.ly/18Emldn"><img class="aligncenter size-full wp-image-3002" title="Cocoa-Got-Blocks" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/Cocoa-Got-Blocks.jpg" alt="" width="595" height="362" /></a></p>
+<p>Nerd extraordinaire <a href="http://www.bignerdranch.com/about_us/nerds/steve_sparks">Steve Sparks</a> wrote a new take on a classic that we know you&#8217;re going to love. Check it out on <a href="http://bit.ly/18Emldn">Vimeo</a> or on <a href="http://bit.ly/10h6dLg">YouTube</a>.</p>
+<h3 style="text-align: center;">Cocoa Got Blocks</h3>
+<div title="Page 1">
+<div>
+<div>
+<p style="text-align: center;">Oh. My. God. Becky&#8230;<br /> Look at this code. It is so big.<br /> It looks like something like C code but with carets.<br /> But you know, who understands C code?<br /> They only use it because it’s a total Pascal substitute, ‘kay?<br /> I mean, the code, it’s just so big.<br /> All the parentheses and curly braces.. Gross! Blegh! It’s just so&#8230; block!</p>
+<p style="text-align: center;">I like code blocks and I cannot lie<br /> you other coders can’t deny<br /> that when a job walks in and you look at it and ask can I make this a background task?<br /> you get sprung, wanna pull out the book and give the threading page a look<br /> first thing that I’m thinking<br /> -lpthread when we’re linking<br /> oh baby, there’s gotta be a better way<br /> all that code make me cray-cray<br /> my homeboys tried to warn me<br /> that dispatch stuff is so so boring! Oooh! don’t know what to do<br /> should you throw it on a background queue?<br /> Well if you queue three, and then then twenty, you won’t know what they’re doing.<br /> The queue could be rockin’<br /> or could be lockin’<br /> your mac sweats, jets,<br /> fans are goin like a turbo ‘Vette.<br /> I’m tired of magazines<br /> saying callbacks are the thing<br /> ask the badass coder about that crock, he’d rather code a block.</p>
+<p style="text-align: center;">so fellas (yeah) fellas (yeah)<br /> has your software got the block? (hell yeah)<br /> dispatch (dispatch) dispatch (dispatch) dispatch_once that block<br /> Cocoa Got Blocks<br /> (download Xcode twice fortnightly)<br /> Cocoa Got Blocks</p>
+<p style="text-align: center;">I like my load average down, and when it’s goin’ to town<br /> I just can’t help myself, I’m a proc killin’ animal<br /> now here’s my scandal<br /> I wanna find that pid<br /> and KILL double up DASH NINE<br /> I ain’t talking about meatspace<br /> ‘cuz silicone parts’ll win that race<br /> I send my code to the compiler<br /> and then the file size doubles<br /> my SSD’s in trouble<br /> purging that disk on the double<br /> watchin WWDC videos&#8230;</p>
+<div title="Page 2">
+<div>
+<div>
+<p style="text-align: center;">knock-kneed coders going real slow<br /> you can have that C code<br /> in my head I’m convertin’ to machine code!<br /> A word to the hot new hardware,<br /> I wanna get Applecare<br /> won’t cuss or Crash-scare,<br /> but I gotta be straight when I say I wanna CODE till the break of dawn!<br /> Lappy got it goin’ on&#8230;<br /> some scripter kids won’t like this song<br /> cuz those punks like to hit it and quit it<br /> and I’d rather stay and play<br /> my code’s long and strong<br /> and I’m dyin’ to get the App Store on<br /> So lappies (yeah) lappies (yeah)<br /> Does your Bootcamp time feel crappy? (hell yeah) clean it up, print it out,<br /> even Stallman’s gotta shout<br /> Cocoa Got Blocks<br /> Cocoa Got Blocks</p>
+<p style="text-align: center;">yeah baby when it comes to coding,<br /> C sharp aint got nothin to do with my selection. Source has errors and warnings?<br /> Huh. Only if it’s five MB.</p>
+<p style="text-align: center;">So your intern’s got a Kindle, reading code books by Dalrymple<br /> Well markd ain’t got an SSD in his MBP<br /> my fusion drive don’t want none<br /> unless you got gigs hon</p>
+<p style="text-align: center;">you can still use NSRunLoops<br /> but please don’t lose those blocks.<br /> Some coders wanna play that ‘hard’ role<br /> and tell you that the block ain’t gold<br /> so they select it and delete it<br /> well I hit Github and retrieve it<br /> So you got a bad iostat?<br /> Well I ain’t down with that!<br /> ‘cause your code is small and your chips are kickin and the inner variables, stickin’<br /> To the one thread code in the magazines,<br /> you ain’t it, Miss Thing!<br /> give me a caret then those brackets<br /> starts to feel like my code’s got jackets<br /> An iPad tried to diss<br /> My profile’s not on his list<br /> He had game but I used the tether,<br /> for once Xcode had it together<br /> So coders, if the task is right<br /> and you wanna run it out of sight,<br /> Open up the GCD ref’rence book<br /> And read it with delight,<br /> Cocoa Got Blocks!<br /> Cocoa Got Blocks!</p>
+<p style="text-align: center;">I lipo’d up the binary, and it’s got blocks! (4x)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>The post <a href="http://blog.bignerdranch.com/3001-cocoa-got-blocks/">Cocoa Got Blocks</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/3001-cocoa-got-blocks/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>Inside the Bracket, part 3 &#8211; Who Are you?</title>
+		<link>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/</link>
+		<comments>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/#comments</comments>
+		<pubDate>Thu, 13 Jun 2013 15:41:55 +0000</pubDate>
+		<dc:creator>Mark Dalrymple</dc:creator>
+				<category><![CDATA[Cocoa]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2993</guid>
+		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/">Inside the Bracket, part 3 &#8211; Who Are you?</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.</p>
+<h3>Be True to your Self</h3>
+<p>One of the simplest object interrogation methods is <code>-self</code>.  You send it to an object, and you get that object back.  I love weird little methods like this.  Is there some kind of corner case that it addresses?  Maybe there&#8217;s some cool technique I&#8217;m missing. <strong>Why</strong> would you have a call like this?  Why go to the trouble of calling</p>
+<pre>thing2 = [thing1 self];
+</pre>
+<p>rather than just doing</p>
+<pre>thing2 = thing1;
+</pre>
+<p>One use of <code>-self</code> is throwing a monkey wrench into ARC.  You&#8217;ve got a bug where ARC is thinking you&#8217;re done with an object, but you&#8217;re actually not, and it&#8217;s getting released from underneath you.  After you file a Radar saying that ARC is mis-handling a corner case, add a call to <code>[thing1 self]</code> at the bottom of your method.  The compiler will think you&#8217;re still using thing1 (because you now are), and the actual method is as close to a no-op as you can get.</p>
+<p>Another use is in higher-order programming interfaces.  <code>-self</code> is a method that takes no arguments and returns an object.  A lot of other methods, like <code>-uppercaseString</code>, do the same thing.  Say you had a function that applies a map operation to an array, where a &#8220;map operation&#8221; sends a message to every element of an array and then collects the results into another array and returns it.  Here&#8217;s a cheesy implementation of a map:</p>
+<pre>NSArray *MapArrayWithSelector (NSArray *array, SEL selector) {
+    NSMutableArray *map = [NSMutableArray array];
+
+    for (id thing in array) {
+        id result = [thing performSelector: selector];
+        if (result) [map addObject: result];
+    }
+
+    return [map copy];  // <a href="http://blog.bignerdranch.com/803-about-mutability/">Strip off mutability</a>
+
+} // MapArrayWithSelector
+</pre>
+<p>You can easily uppercase a set of names with it:</p>
+<pre>NSArray *names = @[ @"Emily", @"Step", @"Vikki" ];
+NSArray *upperNames = MapArrayWithSelector (names, @selector(uppercaseString));
+</pre>
+<p>This returns an array populated with EMILY, STEP, and VIKKI.  Say in your processing of data you decide that you want to pass an array through a pipeline of operations but you don&#8217;t want anything to change the data at some &#8211; just pass it on to the next stage.  In that case, you can use <code>-self</code> as a no-op, a passthrough, without having to have any special casing:</p>
+<pre>NSArray *noOpNames = MapArrayWithSelector (names, @selector(self));
+</pre>
+<p>That&#8217;ll return the the list of names in their original mixed case.<br />
+Along those lines, you can use self in Key-Value Coding strings.  This call is totally legal:</p>
+<pre>NSString *greeble = [@"Bork" valueForKey: @"self"]
+</pre>
+<p>Like with the map you can have a lot of functionality based on KVC and just use <code>"self"</code> when you don&#8217;t want the data to be transformed.</p>
+<h3>No, Really. Who Are You?</h3>
+<p>You can ask an arbitrary object a lot about its parentage.  You can ask &#8220;are you a member of this class&#8221; with <code>-isMemberOfClass:</code>.   You can also ask an object if it is a member of a class or a subclass of a particular class with <code>-isKindOfClass:</code>.</p>
+<p><code>-isMemberOfClass:</code> does an identity comparison between the receiver&#8217;s class and the class passed as an argument:</p>
+<pre>id null = [NSNull null];
+if ([null isMemberOfClass: [NSNull class]]) NSLog (@"YEP!");
+</pre>
+<p>This prints out &#8220;YEP!&#8221;</p>
+<p>Why am I using <code>NSNull</code> here, rather than a more common class like <code>NSString</code>?  It turns out <code>-isMemberOfClass:</code> isn&#8217;t all that useful.  Using it defeats the use of polymorphism.  <code>-isMemberOfClass:</code> says that you don&#8217;t care about what an object can do, but that it is an instance of precisely one class.</p>
+<p>With modern Cocoa, many of the objects you deal with on a regular basis are not actually the class you think they are, but are of a specialized subclass.  Consider <code>NSString</code>.  You&#8217;d think / hope that this would work:</p>
+<pre>if ([@"Howdy" isMemberOfClass: [NSString class]]) NSLog (@"YEP!");
+</pre>
+<p>But it actually doesn&#8217;t.  Thanks to class clusters, the actual class of the literal string is an <code>__NSCFConstantString</code>.  <code>-isMemberOfClass:</code> is asking &#8220;hey constant string, are you nothing but an <code>NSString</code>?&#8221; and the answer is, of course, &#8220;no&#8221;.</p>
+<p>Instead you&#8217;d use <code>-isKindOfClass:</code>.  This asks &#8220;Are you a member of the given class, or one of its subclasses.&#8221;.  Another way of looking it is asking &#8220;Do you have this class somewhere in your inheritance chain?&#8221;  Mutating the test by using <code>-isKindOfClass:</code> gives you good results:</p>
+<pre>if ([@"Howdy" isKindOfClass: [NSString class]]) NSLog (@"YEP!");
+</pre>
+<p>This will print out YEP.  You&#8217;re just interested in that this thing is a string, not what particular flavor of string it is.</p>
+<h3>Checking Applications</h3>
+<p>There can be some practical applications of these kinds of check.  One use of <code>-isMemberOfClass:</code> is in implementations of <a href="http://blog.bignerdranch.com/334-isequal-vs-isequaltostring/">-isEqual</a>, and you consider objects of two different classes to be unequal, even if their contents are the same:</p>
+<pre>- (BOOL) isEqual: (id) otherDude {
+    BOOL equal = [self isMemberOfClass: [otherDude class]]
+        &#038;&#038; [[self name] isEqualToString: [otherDude name]]
+        &#038;&#038; [self shoeSize] == [otherDude shoeSize];
+
+    return equal;
+} // isEqual
+</pre>
+<p>(Just a quick style note &#8211; I like to split up the calculation and the return into two statements.  It&#8217;s now very easy to put a breakpoint on the return statement and inspect what it&#8217;ll be returning.)</p>
+<p>One use of <code>-isKindOfClass:</code> is querying an object you get back from a possibly insecure store.  Users can muck with <code>NSUserDefaults</code> on the desktop, so you might get an object back that causes your program heartburn.</p>
+<pre>NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
+
+NSDictionary *defaultDefaults = @{
+   @"spoon" : @"waffle"
+};
+
+[defs registerDefaults: defaultDefaults];
+</pre>
+<p>It registers some defaults with <code>NSUserDefaults</code>.  You can then later on get the value out and use it:</p>
+<pre>NSString *thing = [defs objectForKey: @"spoon"];
+NSLog (@"thing is %@", [thing uppercaseString]);
+</pre>
+<p>You can find the complete program at <a href="https://gist.github.com/markd2/5774591">this gist</a>.  What can go wrong?  I put in a string, and I get out a string.  On iOS it&#8217;s not that much of a problem (outside of program bugs), but on the Mac you can do all sorts of fun stuff. Here&#8217;s a run with the default value, a run after changing the default, and a final run after setting it a really bad value:</p>
+<pre>% <strong>./defaults-death</strong>
+2013-06-11 15:50:13.811 defaults-death[48089:303] thing is WAFFLE
+
+% <strong>defaults write defaults-death spoon -string badger</strong>
+% <strong>./defaults-death</strong>
+2013-06-11 15:51:01.548 defaults-death[48121:303] thing is BADGER
+
+% <strong>defaults write defaults-death spoon -integer 23</strong>
+% <strong>./defaults-death</strong>
+2013-06-11 15:51:12.319 defaults-death[48128:303] -[__NSCFNumber uppercaseString]: unrecognized selector sent to instance 0x17c3</pre>
+<p>(and you all know what a backtrace looks like)</p>
+<p>What happened?  The &#8220;spoon&#8221; user default now has an <code>NSNumber</code> in it, not an <code>NSString</code>.  You try to do stringy-things with it and things blow up in your face.  You can sanity check values you get back from <code>NSUserDefaults</code> like this:</p>
+<pre>NSString *thing = [defs objectForKey: @"spoon"];
+if ([thing isKindOfClass: [NSString class]]) {
+    NSLog (@"thing is %@", [thing uppercaseString]);
+} else {
+    NSLog (@"bad defaults, man!");
+}</pre>
+<h3>Anatidae Keyboarding</h3>
+<p>In general, though, querying an object for its class is a code smell.  If you&#8217;re doing object-oriented design, you should be relying on polymorphism to obviate the need to know exactly what kind of object you&#8217;re dealing with.  If you have tests all over your code like &#8220;is this a fish?  Do this thing.  Is this a battery?  Do this other thing.&#8221; then you should re-think your design. There are valid times when you might ask an object in an arbitrary collection &#8220;are you an array?  Ok, I&#8217;ll process you differently than if you were just a view.&#8221;, but it&#8217;s easy to fall back on <code>-isKindOfClass:</code> as a crutch.</p>
+<p>Instead of asking &#8220;are you a fish?&#8221; or &#8220;are you a battery?&#8221;, you can instead ask very specific questions like &#8220;Do you support uppercaseString?&#8221; or &#8220;Do you respond to numberOfSectionsInCollectionView:?&#8221; by using the method <code>-respondsToSelector:</code>.</p>
+<p><code>-respondsToSelector:</code> takes your selector, grabs the class from the object (via the <code>isa</code> pointer), and roots around inside the pile of methods to see if your selector is in there.  If it finds the selector in there, or finds it in the set of methods that the superclasses implement, it reports success.  Otherwise, not.</p>
+<p>Objective-C doesn&#8217;t really care about the flavor of the receiver when sending a message.  It just cares that it can handle a particular message by running some code. The compiler might add some type checking to catch common errors as a convenience to us, but fundamentally it&#8217;s not necessary to the operation of the language.  This message agnosticism is a very powerful behavior.  It enables Duck Typing.</p>
+<p>The term duck typing comes from the phrase &#8220;if this thing walks like a duck, talks like a duck, and plays poker as badly as a duck, then I can treat it as if it were a duck.&#8221;  If an object responds to a particular set of messages, you can treat it as a particular kind of object.  It doesn&#8217;t really matter what the actual class (or type) the object is.</p>
+<p>Cocoa data sources and delegates take advantage of duck typing.  Any object that can handle <code>-tableView:numberOfRowsInSection:</code> and <code>-tableView:cellForRowAtIndexPath:</code> can participate as a <code>UITableView</code> data source.  This could be one of your navigation controllers.  This could be a collection of media items.  You could even put a category on <code>NSArray</code> to make any array a possible tableview data source.</p>
+<p>You can adopt protocols in your @interfaces and class extensions to declare to the world &#8220;Hey, I implement the required methods of this protocol.  And perhaps more!&#8221;.  If you&#8217;re interested in protocols, you can <a href="http://blog.bignerdranch.com/467-protocols-part-1-why/">get</a> <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">more</a> <a href="http://blog.bignerdranch.com/465-protocols-part-3-adopting-protocols-in-class-extensions-bork">info</a>.</p>
+<p>What about those optional methods?  If you&#8217;re implementing code that calls optional delegate or data source methods, you would use <code>-respondsToSelector:</code> to see if a particular object responds to that method.  If it responds, groovy!  Go ahead and make the call.  Otherwise, don&#8217;t even bother.  Checking is easy:</p>
+<pre>if ([self.delegate
+         respondsToSelector: @selector(worldMap:selectedCountryCode:)]) {
+    [self.delegate worldMap: self  selectedCountryCode: countryCode];
+}
+</pre>
+<p>An aside about <code>-conformsToProtocol:</code>.  this is a call similar to <code>-respondsToSelector:</code> that tells you if a class conforms to a particular protocol.  You can use this to pre-flight operations.  You could load a plugin and check to make sure it conforms to your application&#8217;s interface to plugins.  There&#8217;s one slight gotcha &#8211; <code>-conformsToProtocol:</code> doesn&#8217;t actually check to make sure that the methods are implemented.  All it does is see if the creator of the class explicitly adopted the protocol, not that it actually implemented everything.  Is this ever a problem?  Rarely.  But sometimes you might be in a situation where some other programmer&#8217;s delegate object is dying when you send it messages.  They might have adopted the protocol, but not actually satisfied the contract.</p>
+<p>How is that possible?  Here are two classes.  <code>Goofus</code> says he adopts <code>UITableViewDataSource</code>, but doesn&#8217;t actually implement anything.  <code>Gallant</code>, being the shy retiring type, implements the required portions of the data source, but doesn&#8217;t tell anyone:</p>
+<pre>@interface Goofus : NSObject &lt;UITableViewDataSource&gt;
+@end
+
+@implementation Goofus
+@end
+
+
+@interface Gallant : NSObject
+@end
+
+@implementation Gallant
+- (NSInteger)tableView:(UITableView *)tableView
+    numberOfRowsInSection:(NSInteger)section {
+    return 23;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+@end
+</pre>
+<p>The compiler might warn you about <code>Goofus</code> not implementing the required methods.  And if you aren&#8217;t <a href="http://blog.bignerdranch.com/798-a-bit-on-warnings/">Fixing Your Warnings</a> it can slip through.  When you actually go to interact with one of these gents, the compiler will warn you that <code>Gallant</code> has bad mojo, but <code>Goofus</code> is OK:</p>
+<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/goofus.png" alt="Goofus" title="goofus.png" border="0" width="552" height="110" /></p>
+<p>Then, at run time, messages to <code>Goofus</code> will explode in your face. <a href="http://www.youtube.com/watch?v=rX7wtNOkuHo">HA HA</a>.</p>
+<p>All that being said, I believe it&#8217;s perfectly fine to use <code>-conformsToProtocol:</code> as a quick check to see if this object might implement all of the required methods, just don&#8217;t expect it to do a deep introspection for you.  If you&#8217;re having unrecognized selector issues with <code>@required</code> methods, double-check to make sure the class adopting the protocol is behaving.</p>
+<h3>Up next</h3>
+<p>Remember that complaint from earlier?</p>
+<pre>-[__NSCFNumber uppercaseString]: unrecognized selector sent to instance 0x17c3
+</pre>
+<p>Next time we&#8217;ll take a look at what causes that, and how you can leverage unrecognized selectors to your own advantage.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/">Inside the Bracket, part 3 &#8211; Who Are you?</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>WWDC 2013: Focusing on the little things</title>
+		<link>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/</link>
+		<comments>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/#comments</comments>
+		<pubDate>Wed, 12 Jun 2013 18:22:56 +0000</pubDate>
+		<dc:creator>Paul Turner</dc:creator>
+				<category><![CDATA[Cocoa]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2984</guid>
+		<description><![CDATA[<p><p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/">WWDC 2013: Focusing on the little things</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.</p>
+<h3>The small details</h3>
+<p>iOS7 brings a whole new interface, one that pays attention to the small details that define the total experience. The new look is centered on the idea of simplicity and efficiency, bringing order to complexity, as Jony Ive said. What this has served to remind me of is the complexity involved in making an app feel and look easy to use.</p>
+<p>By now you&#8217;ve probably seen images of Apple&#8217;s re-design of several of the apps. Gone are the days of faux leather; instead we now have a systemwide flatter, more minimalistic look. As with any change, opinions on this shift will range from extremely negative to very positive, but one thing is for certain: it&#8217;s here to stay.</p>
+<h3>Changes for developers</h3>
+<p>Apple has gone all in with these changes and in a way forced the hand of developers from here on out. Consistency is one of the pillars of the iPhone/iPad ecosystem, and users enjoy having a common look, feel and experience across all of their apps. With Apple updating all of the stock apps, users will become accustomed to the new way of interacting with apps. Going back with the edge of the screen, fluid transitions between screens, and translucent views will all become second nature to the user. This means that users will begin to expect the same from third-party apps.</p>
+<p>This doesn&#8217;t mean developers should immediately freak out and start working weekends to revamp their apps to match the new look. On the other hand, if your app has a custom UI that you&#8217;ve worked on over the years, you may be telling yourself, &#8220;I don&#8217;t need to make any changes. My app already looks great.&#8221;</p>
+<p>I feel that these are both the wrong approach.</p>
+<h3>A deeper look</h3>
+<p>Instead, iOS7 warrants a deeper look at the app and its functionality. One of the things that Apple made clear was that they did not simply go about changing how things look. Instead, they focused on the experience and how things feel for the user. The word game <a href="https://developer.apple.com/wwdc/events/awards/#letterpress-word-game">Letterpress</a> was given a 2013 Apple Design award because it &#8220;stands out for its beautifully understated game interface, simple gestures, subtle animations and restrained sound design.&#8221; So you can see that it&#8217;s not just changes in appearance that are important.</p>
+<p>In all, I love Apple&#8217;s new change in design, and not entirely based on they way it looks. More importantly, I like the fact that the platform is evolving and changing, instead of clinging to what has worked in the past. Apple is forcing developers to look at their apps once again, and to think about how they can improve their experience. Developers will look at what Apple has done and &#8220;steal&#8221; certain features, but also will improve upon others, helping sustain the rich environment of apps that the iOS platform is known for.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/">WWDC 2013: Focusing on the little things</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WWDC 2013 keynote: a love letter to users</title>
+		<link>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/</link>
+		<comments>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/#comments</comments>
+		<pubDate>Wed, 12 Jun 2013 00:17:15 +0000</pubDate>
+		<dc:creator>Step Christopher</dc:creator>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2966</guid>
+		<description><![CDATA[<p><p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
+<p>As a developer, I’m working toward the same goal that Apple is: to delight people and improve their lives.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/">WWDC 2013 keynote: a love letter to users</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
+<p>As a developer, I’m working toward the same goal that Apple is: to delight people and improve their lives. So seeing Apple serve our shared audience so well means good things for the near-term future of iOS development. Yesterday&#8217;s keynote was a love letter to those users.</p>
+<p>Apple made it clear that the Mac platform is alive and well. If you wondered what the next step was in the iOS-ification of OS X, Apple gave the same answer as always: Mac stands on its own merits. Apple has continued to improve the integration between their platforms, but not by pursuing some generic, hand-wavy goal of making them more similar. Each OS will continue to be fully tailored for the devices it is on, each detail intentional to that context. Apple has added even more shared APIs, as well as implemented pieces across lots of shared concepts (notifications, Messages, Maps, AirDrop, etc.). But they’re not sharing the UI or UX wholesale. Each detail of integration is hand-crafted for the platform it lives on.</p>
+<h3>Improved experiences</h3>
+<p>Let’s look at just one example. Users can now choose to get their iOS app’s push notifications on their Mac too. Not only can users have an improved experience, but Apple has just extended developers&#8217; reach to customers. This can change how we think about push notifications, when and what to send.</p>
+<p>You should start thinking about how you can use this to improve your user’s experience with your app. I don’t know if we have access to also allow custom responses/interaction right within the notifications, but I hope so. Certainly this makes it more compelling to use push notifications where they make sense, and also to consider a companion Mac app.</p>
+<h3>The moral of the story</h3>
+<p>The biggest takeaway I got from the WWDC keynote is that you should understand your users’ problem. Not their proposed solution, but the underlying problem. Then you should solve that problem, paying close attention to context and to the details. Don’t be distracted by any other solution you’ve seen before.</p>
+<p>Instead, you should strive to design the perfectly fit solution, custom-tailored to the problem. Clear away everything else, and you’ll have something beautiful and powerful. All those things you cleared away? They can come back after you get the first, focused release out there. Iterate. Release. Listen to your customers. And repeat.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/">WWDC 2013 keynote: a love letter to users</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Inside the Bracket, part 2 &#8211; data invocation</title>
+		<link>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/</link>
+		<comments>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/#comments</comments>
+		<pubDate>Thu, 06 Jun 2013 15:31:53 +0000</pubDate>
+		<dc:creator>Mark Dalrymple</dc:creator>
+				<category><![CDATA[C Stuff]]></category>
+		<category><![CDATA[Cocoa]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2950</guid>
+		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
+<pre>for (NSView *view in visibleviews) {
+    [view drawRect: view.bounds];
+}</pre>
+<p>Objective-C performs this magic by having a collection associated with each object.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Inside the Bracket, part 2 &#8211; data invocation</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
+<pre>for (NSView *view in visibleviews) {
+    [view drawRect: view.bounds];
+}</pre>
+<p>Objective-C performs this magic by having a collection associated with each object.  This collection has a mapping of names (like <code>drawRect:</code>) to chunks of code.  The mapping of names to code happens at runtime, rather than compile or link time. This deferral comes at a slight performance penalty, but gives us access to interesting under-the-hood data at runtime, and also gives us a lot of flexibility.</p>
+<p>What is this extra data?  What is this flexibility?  Glad you asked.</p>
+<h3>The Moving Pieces</h3>
+<p>Each object that&#8217;s floating around in memory is described by a class.  In Objective-C, a class is an object too &#8211; it can receive messages.  The class holds all the metadata that describes the instances of that class &#8211; things like the set of methods it implements, what protocols it adopts, any <code>@properties</code>, its instance variables, and so on.  The class also has a reference to the one-and-only superclass of the class.  Say <code>UIButton</code> inherits from <code>UIView</code>.  This means that <code>UIButton</code>&#8216;s superclass is <code>UIView</code>.</p>
+<p>An individual object is a dynamically allocated chunk of memory that contains the instance variables of the object, such as the view&#8217;s bounds or the background fill color for a layer.  The object also has a pointer, called <code>isa</code>, at a predictable location (the first 4 or 8 bytes of the object) .  This points to the class.  &#8220;<code>isa</code>&#8221; comes from &#8220;is-a&#8221;.  This object in the memory is-a button because its isa pointer points to the <code>UIButton</code> class.  It&#8217;s now very easy for you, when given any random Objective-C object, to find out where its class lives.  Just look at the first pointer.</p>
+<p>Here&#8217;s how all the chunks of data relate:</p>
+<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/object-class.png" alt="Object class" title="object-class.png" border="0" width="725" height="421" /></p>
+<p>What&#8217;s going on in this diagram?  A button&#8217;s <code>isa</code> pointer points to the <code>UIButton</code> class.  The class has (amongst other stuff) a reference to its map of methods.  It has a reference to its superclass (<code>UIView</code>) as well.  <code>UIButton</code> implements some button-specific methods like drawRect and style, as well as the mysterious &#8220;blah&#8221; method.  You can see that <code>UIView</code> implements some generic housekeeping methods, like the frame handling, background color storage, and it has its own version of blah.</p>
+<p>So, that method map.  It&#8217;s a dictionary of names and methods.</p>
+<p>The name is called the selector. What&#8217;s a selector then?  It&#8217;s the key into that dictionary.  A selector is actually a <code>char *</code>, so you can print one out in <code>gdb</code> or <code>lldb</code>.  This is an implementation detail, but makes for a nice debugging feature.  The current selector is passed in a hidden argument called <code>_sel</code>, so you can &#8220;<code>print _sel</code>&#8221; inside of your debugger.  If you&#8217;re going to and from string representation of selectors for actual work (say to some selector names in a Cocoa collection), use the <code>NSStringFromSelector</code> an <code>NSSelectorFromString</code> functions.</p>
+<p>The selector is one side of the method map.  The method implementation is on the other side.   It&#8217;s the address of a function to call.   It&#8217;s an <code>IMP</code>, short (and shouty) type that stands for &#8220;implementation&#8221;.  An <code>IMP</code> is a function pointer which points to a function that takes an id and a selector:</p>
+<pre>typedef id (*IMP)(id, SEL, ...);</pre>
+<p>Look familiar?  That&#8217;s the same as the arguments to objc_msgSend.  It&#8217;s also the same two hidden parameters to methods: <code>self</code> and <code>_sel</code>.</p>
+<p>You can ask an object for that function pointer that&#8217;s behind a particular message.  It&#8217;s a function pointer, so you can jump through it like any other function pointer.  Here&#8217;s some code that takes a string, gets the function pointer behind -uppercaseString, and then jumps through it directly.  (Some code <a href="https://gist.github.com/markd2/5722116">at this gist</a>)</p>
+<pre>NSString *string = @"Bork";
+IMP uppercase = [string methodForSelector: @selector(uppercaseString)];
+
+NSString *upcase = uppercase (string, @selector(flonknozzle));
+NSLog (@"%@ -> %@", string, upcase);</pre>
+<p>And a sample run:</p>
+<pre>Bork -> BORK</pre>
+<p>Notice that I passed a nonsense selector as the second argument (<code>_sel</code>).  That shows that uppercase is just a function pointer and not actually vectoring through <code>objc_msgSend</code>.</p>
+<p>Ordinarily you won&#8217;t be grabbing the <code>IMP</code> and jumping through it because it defeats the whole idea of polymorphism &#8211; you&#8217;re short-circuiting the method look up process.  But if you know that all the objects in a collection are the same, you can get the <code>IMP</code> and jump directly to the method implementation.  Be sure you&#8217;ve profiled your app before doing this kind of micro-optimization.  It could become the source of bugs if your heterogenous collection starts having different kinds of objects in it.  &#8220;Why is <code>UIButton's</code> <code>-drawRect</code> suddenly trying to draw sliders?&#8221;</p>
+<h3>Signature Move</h3>
+<p>A &#8220;signature&#8221; is the term for the types that a method or function takes as parameters and what its return value is.  The signature of <code>NSData</code>&#8216;s <code>dataWithContentsOfFile:</code> is &#8220;Takes a string (path) and returns an object (an <code>NSData</code> of the contents of the file at the path)&#8221;.</p>
+<p>Method signatures are part of a class&#8217;s metadata.  You can ask a class for the signature of a method using <code>methodSignatureForSelector</code>.  The signature is encapsulated in a <code>NSMethodSignature</code> object that you can then poke around.  Here&#8217;s an <code>NSString</code> method with some parameters:</p>
+<pre>- (NSRange) rangeOfCharacterFromSet: (NSCharacterSet *) aSet
+                            options: (NSStringCompareOptions) mask
+                              range: (NSRange) searchRange;</pre>
+<p>This method takes an object, a bit mask, and an <code>NSRange</code> struct.  It returns an <code>NSRange</code>. You get the signature by asking the class:</p>
+<pre>NSMethodSignature *signature =
+    [NSString instanceMethodSignatureForSelector: @selector(rangeOfCharacterFromSet:options:range:)];</pre>
+<p>Now poke around the signature:</p>
+<pre>NSLog (@"%ld arguments", [signature numberOfArguments]);
+
+for (NSUInteger i = 0; i < [signature numberOfArguments]; i++) {
+    NSLog (@"%ld -> %s", i, [signature getArgumentTypeAtIndex: i]);
+}
+NSLog (@"returning %s", [signature methodReturnType]);
+</pre>
+<p>Running this yields this extremely illuminating output:</p>
+<pre>5 arguments
+0 -> @
+1 -> :
+2 -> @
+3 -> Q
+4 -> {_NSRange=QQ}
+returning {_NSRange=QQ}</pre>
+<p>Ummm&#8230; Yeah.  Moving on then!</p>
+<h3>Type Encodings</h3>
+<p>These character strings are &#8220;type encodings&#8221;.  They&#8217;re character sequences that describe individual types.  You can ask the compiler for a type&#8217;s encoding string by using the <code>@encode</code> directive: (this stuff is <a href="https://gist.github.com/markd2/5722104">at this gist</a>)</p>
+<pre>NSLog (@"int:        %s", @encode(int));
+NSLog (@"CGRect:     %s", @encode(CGRect));
+NSLog (@"NSString *: %s", @encode(NSString *));</pre>
+<p>This prints out:</p>
+<pre>int:        i
+CGRect:     {CGRect={CGPoint=dd}{CGSize=dd}}
+NSString *: @</pre>
+<p>Lower-case <code>i</code> for an int.  <code>CGRect</code> is a <code>{struct}</code> with two structs, each of which has a <code>double</code>.  <code>@</code>is an object pointer.  You can see <a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html">the list of encodings</a>, or you can also ask Uncle Google for &#8220;objective-C runtime programming guide type encodings&#8221; for when Apple breaks this documentation link.  The particular characters and what they correspond to are an implementation detail, so don&#8217;t go hardcoding &#8220;<code>{_NSRange=QQ}</code>&#8220;.  You can use <code>@encode</code> to get the proper encoding string in a robust manner.</p>
+<p>Here, again, is the signature for <code>rangeOfCharacterFromSet</code>&#8230;, annotated</p>
+<pre>5 arguments
+0 -> @                       object pointer
+1 -> :                       selector
+2 -> @                       object pointer
+3 -> Q                       unsigned long long
+4 -> {_NSRange=QQ}       NSRange struct, with two unsigned long longs
+returning {_NSRange=QQ       NSRange struct with two unsigned long longs</pre>
+<p>And now things should make more sense.  The first two arguments are, you guessed it, <code>self</code> and <code>_sel</code>.  Then follow the three arguments to the method &#8211; an object pointer (to an <code>NSCharacterSet</code>), a big <code>int</code> used for a bit mask, and an <code>NSRange</code>. It returns an <code>NSRange</code>.</p>
+<p>There&#8217;s one caveat: the type encodings don&#8217;t handle variable argument lists. You can&#8217;t tell with <code>NSMethodSignature</code> if something is a varargs method or not.</p>
+<p>Armed with this, you can figure out at run time what the calling convention is for an arbitrary method so long as you know its selector.  Sure, that&#8217;s interesting trivia, but can it be useful information?</p>
+<h3>Equivoinvocations</h3>
+<p>If you know the signature for a method, and savvy with the platform ABI
+<link>, you can package up message-sends into an object. In essence, creating the potential for a message send.  Then, in the future, you can take this package and cause it to actually send a message.  You&#8217;re freeze-drying a method invocation for later thawing.  Apple gives us a class to do this, hiding the grody details : <code>NSInvocation</code>.</link></p>
+<p>Be warned, <code>NSInvocation</code> is kind of a pain to deal with. And its performance is terrible.  Mike Ash has a <a href="http://mikeash.com/pyblog/performance-comparisons-of-common-operations-leopard-edition.html">test program</a> (that you can run for yourself) which times various common operations.    Here&#8217;s a subset, with the time for each operation in nanoseconds.</p>
+<pre>IMP-cached message send     0.7
+C++ virtual method call     1.1
+Objective-C message send    4.9
+NSInvocation message send  77.3</pre>
+<p>The timing of the first three are unsurprising &#8211; an IMP-cached message send is just a function pointer call, so it&#8217;s very fast.  A C++ virtual method call is a pointer+offset (find the vtable) followed by a pointer + offset (find the function pointer in the vtable) and then a function pointer call. It&#8217;s a little more work so takes a bat more time. An Objective-C message send does a fair amount of work as you&#8217;ve seen already.</p>
+<p><code>NSInvocation</code> takes 15 times longer to use an already-existing <code>NSInvocation</code> object and invoke it than to call a method directly.   77 nanoseconds is actually not a long time, so don&#8217;t avoid invocations it if it can lead to elegant designs.</p>
+<p>Making an <code>NSInvocation</code> is a multi-step process.  Before showing the invocation, <a href="https://gist.github.com/markd2/5722110">here&#8217;s some code</a> that uses <code>rangeOfCharacterInSet:</code>&#8230; that we&#8217;ll invocationize.</p>
+<pre>//  (character indexes             11111111112222
+//   in the string)      012345678901234567890123
+NSString *baseString = @"Why hello there, Hoover.";
+//  (randomRange)             |-------------|
+NSRange randomRange = (NSRange){5, 15};
+
+NSCharacterSet *set = [NSCharacterSet whitespaceCharacterSet];
+NSStringCompareOptions options = NSBackwardsSearch;
+
+NSRange lastSpace =
+    [baseString rangeOfCharacterFromSet: set
+                options: options
+                range: randomRange];</pre>
+<p>This is saying &#8220;given this string, look in the range of [5,20) for the first whitespace character, but start searching from the end".  In other words, what is the last whitespace character in that range?  This call returns {16, 1}, which is the space right before Hoover.</p>
+<p>First you need a method signature, otherwise how do you know what arguments to send to the <code>IMP</code> that backs <code>rangeOfCharacterInSet:</code>... ?</p>
+<pre>NSMethodSignature *rangeSignature =
+    [NSString instanceMethodSignatureForSelector:
+                  @selector(rangeOfCharacterFromSet:options:range:)];</pre>
+<p>Then make an invocation:</p>
+<pre>NSInvocation *spaceFinder =
+    [NSInvocation invocationWithMethodSignature: rangeSignature];</pre>
+<p>Next, tell the invocation to retain any object arguments.  Before ARC you would retain any objects that you put into invocations (and remembered to release them when done).  We can't do that with ARC.  So tell the invocation to retain its arguments so they don't disappear:</p>
+<pre>[spaceFinder retainArguments];</pre>
+<p>Set the target (<code>self</code>) and selector (<code>_sel</code>):</p>
+<pre>[spaceFinder setTarget: baseString];
+[spaceFinder setSelector: @selector(rangeOfCharacterFromSet:options:range:)];</pre>
+<p>Then set the three arguments for the method.  Start with argument index 2.</p>
+<pre>[spaceFinder setArgument: &#038;set  atIndex: 2];  // target=0, selector=1
+[spaceFinder setArgument: &#038;options  atIndex: 3];
+[spaceFinder setArgument: &#038;randomRange  atIndex: 4];</pre>
+<p>And you're done!  Invoke it to cause the message send to happen.</p>
+<pre>[spaceFinder invoke];</pre>
+<p>And then print the return value.</p>
+<p>Uh... Where did the return value go?  It gets stuffed into the invocation:</p>
+<pre>NSRange anotherLastSpace;
+[spaceFinder getReturnValue: &#038;anotherLastSpace];</pre>
+<p>This also returns {16,1], so life is good.  You can re-use the invocation and point it at different strings by using setTarget:</p>
+<pre>//                                   1111111111
+//                         01234567890123456789
+NSString *secondString = @"<a href="http://www.amazon.com/Seem-Be-Verb-Environment-Future/dp/B0006CZBHO">I seem to be a verb!</a>"; 
+//                              |-------------|
+[spaceFinder setTarget: secondString];
+[spaceFinder invoke];
+NSRange yetAnotherLastSpace;
+[spaceFinder getReturnValue: &#038;yetAnotherLastSpace];</pre>
+<p>This returns a range of {14, 1}, which is the space right before "verb".</p>
+<p>You can reuse an invocation any number of times.</p>
+<p>What's neat about <code>NSInvocation</code> is it takes message-sends, which are fundamentally verb-like in nature, and converts them into objects, which are fundamentally noun-like in nature.  You can put these invocations into collections, where they sit, lurking, until called into action.</p>
+<p><code>NSUndoManager</code> is fundamentally a couple of <code>NSArrays</code> filled with <code>NSInvocations</code>.  You can use invocations to make <a href="http://borkwarellc.wordpress.com/2007/09/13/c-callbacks-in-objc/">C callback handling</a> easier.  Rather than writing a thunk method that casts a context pointer to an object, and then calling a hard-coded method, you could instead use an <code>NSInvocation</code> as the context pointer, and have a single generic callback.  They're also used under some circumstances when messages are sent to objects, as you'll see in the next installment.  You can also use an invocation as an operation by putting an <code>NSInvocationOperation</code> onto a <code>NSOperationQueue</code>.</p>
+<p>The second is just an observation.  Notice that the <code>setArgument:</code> methods take addresses of stuff, like the address of the search options mask, or the address of the range to limit the character search in.  There's no sizeof's anywhere to let <code>NSInvocation</code> know how many bytes to grab from memory.  There's no need to - all that information is in the <code>NSMethodSignature</code>!</p>
+<h3>Data Today, Methods Tomorrow</h3>
+<p>Here ends the tour of some of the bits of information you can get at run-time given Objective-C's rich metadata.  Next time, a tour of some of the methods you can use to put this metadata to good use.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Inside the Bracket, part 2 &#8211; data invocation</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>On the Road: Mobile Design in Amsterdam</title>
+		<link>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/</link>
+		<comments>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/#comments</comments>
+		<pubDate>Wed, 05 Jun 2013 20:15:50 +0000</pubDate>
+		<dc:creator>Brandy Porter</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[On the Road]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2927</guid>
+		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p>Today I’m writing to you from a plane somewhere over Romania.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/">On the Road: Mobile Design in Amsterdam</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/TravelBlogHeader_Amsterdam.jpg" alt="" title="TravelBlogHeader_Amsterdam" width="595" height="226" class="aligncenter size-full wp-image-2933" /></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p>Today I’m writing to you from a plane somewhere over Romania. <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian</a> and I are headed to India for our next Microsoft design bootcamps. We just spent a week in Amsterdam, where we were able to work with the <a href="http://www.bignerdranch.com/locations/netherlands">Big Nerd Ranch Europe</a> team and deliver a three-day class covering iOS, Android and Windows 8 design principles.</p>
+<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/bnramsterdam/" rel="attachment wp-att-2929"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/BNRAmsterdam.jpg" alt="" title="BNRAmsterdam" width="590" height="359" class="aligncenter size-full wp-image-2929" /></a></p>
+<p>The attendees ranged from local designers to government officials, all looking to better understand mobile design platforms. It was a great opportunity to teach to a smaller group, making the workshops a truly valuable and personal experience. The Amsterdam community is generally focused on iOS, but they understand the rising global importance of Android apps, and are intrigued and excited about Windows 8.</p>
+<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/amsterdamclass/" rel="attachment wp-att-2928"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/AmsterdamClass.jpg" alt="" title="AmsterdamClass" width="590" height="443" class="aligncenter size-full wp-image-2928" /></a></p>
+<p>While we had to work during the day, we found a lot to do at night. Sundown didn’t occur until around 22:00, so late nights tended to sneak up on us (It’s worth mentioning that sunup was around 4:30, so early mornings also snuck up on us). We got to stay in the Big Nerd Ranch apartment while <a href="http://www.bignerdranch.com/about_us/nerds/bolot_kerimbaev">Bolot</a> was teaching in Sweden, so we had easy access to restaurants, pubs, coffee shops and the Artis Royal Zoo. By borrowing Bolot’s bike and renting another, we had the entire city at our wheels. Some of the adventures we got into included world cuisine, the Rijks Museum of Dutch history and art, the Van Gogh Museum, harrowing bike rides, a canal tour by boat, more coffee than any reasonable person should drink, and time spent with new and fast friends.</p>
+<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/rijks-museum/" rel="attachment wp-att-2932"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/Rijks-Museum.jpg" alt="" title="Rijks-Museum" width="590" height="443" class="aligncenter size-full wp-image-2932" /></a></p>
+<p>Meeting genuine friends has to be the most valuable memory for me. Our European Nerds—<a href="http://www.bignerdranch.com/about_us/nerds/marcel_speller">Marcel</a>, Bolot, <a href="http://www.bignerdranch.com/about_us/nerds/siemen_sikkema">Siemen</a> and <a href="http://www.bignerdranch.com/about_us/nerds/rajiv_jhoomuck">Rajiv</a>—exemplify the kind of Nerd we like at the Ranch: intelligent, hardworking and kind. Siemen let me ride on the back of his bike across town on the first day we met, going out of his way to make sure we didn’t get lost. Rajiv is getting married in Mauritius this month! Marcel and his wife, Jeanette, ran the workshops without a hitch. We all met several times at various “eten and drinken” spots, simply tweeting our latest location to the group. It’s that kinda town.</p>
+<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/brewerytour/" rel="attachment wp-att-2930"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/BreweryTour.jpg" alt="" title="BreweryTour" width="590" height="443" class="aligncenter size-full wp-image-2930" /></a></p>
+<p>We got to hang with the <a href="http://appsterdam.rs/">Appsterdam</a> crowd during their Wednesday night meetup at Bax, where we met expats from around the world, all with a love for building brilliant apps. One Dutch guy is living and working in Brazil now, another in San Francisco; still another, Magnus Dahl, is from Sweden originally. He is actually the technical editor of our brand new <a href="http://www.bignerdranch.com/book/android_the_big_nerd_ranch_guide">Android Programming guide</a>! We met Marcel’s son, Klaas, co-creator of Appsterdam and New Lemurs; and Olga, who is researching how to bring the Appsterdam community aspect to Greece, a country that is a bit segregated from the dev world right now. How exciting!</p>
+<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/canaltour/" rel="attachment wp-att-2931"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/CanalTour.jpg" alt="" title="CanalTour" width="590" height="315" class="aligncenter size-full wp-image-2931" /></a></p>
+<p>We saw these wonderful people a few more times over the rest of the week, and had riveting conversations in rockabilly bars, museums and even on bike rides. It really drove home this point for me: the most amazing part of Amsterdam is her people.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/">On the Road: Mobile Design in Amsterdam</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>A recipe for creating iOS games</title>
+		<link>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/</link>
+		<comments>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/#comments</comments>
+		<pubDate>Tue, 04 Jun 2013 16:16:22 +0000</pubDate>
+		<dc:creator>John Shea</dc:creator>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Tech Talks]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2878</guid>
+		<description><![CDATA[<p><p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
+<p><em>Alumni: If you’d like to share your success stories with us, please leave a note in the comments.</em>&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/">A recipe for creating iOS games</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
+<p><em>Alumni: If you’d like to share your success stories with us, please leave a note in the comments.</em></p>
+<p>In <a href="http://bit.ly/11f9JBj">my last post</a>, I wrote about the process that lead me to create my first game, Kondrian. During that process, I learned a lot about creating iOS games. In fact, I’d almost call it a recipe. Here are the key steps:</p>
+<ul>
+<li>
+<p><strong>Create a story.</strong> You don’t have to share it with the player, but it helps you mold the game.</p>
+</li>
+<li>
+<p><strong>Make five simple 2D prototype games.</strong> This will help you develop your process and thinking.</p>
+</li>
+<li>
+<p><strong>Reduce your ambition for your first shipping game.</strong> Keep it small and focused.</p>
+</li>
+<li>
+<p><strong>Choose an engine.</strong> Your main choices are:</p>
+<p>a.) rolling your own for full control and to reuse your UIKit skills, <br />b.) Unity if you want to release on other platforms, or <br />c.) Cocos2D, which abstracts OpenGL but in 2D only.</p>
+</li>
+<li>
+<p><strong>Integrating with UIKit can save you a lot of time.</strong> If it&#8217;s applicable, integrating can save you time, not only by allowing you to reuse your UIKit knowledge and your UIKit code, but also by letting you advantage of the growing number of iOS libraries out there. In my case, I used a lot of UIBezierPath tech from one of my previous apps and used <a href="https://github.com/magicalpanda/MagicalRecord">MagicalRecord</a> to help with Core Data.</p>
+</li>
+<li>
+<p><strong>Be careful: developing a good particle engine can be a time sink.</strong> Unity and Cocos2D provide particle engines, which might save you a lot of time <em>if your game has a lot of effects</em>.</p>
+</li>
+<li>
+<p><strong>Find a good artist.</strong> You can’t avoid this step; it’s essential. However, innovative sound for this first game is not as important.</p>
+</li>
+<li>
+<p><strong>Iterate.</strong> Iterate everything, and experiment with everything, including controls and game play.</p>
+</li>
+<li>
+<p><strong>Vectors are very important for AI.</strong> Use GLKVector2 from GLKit and get your head around them.</p>
+</li>
+<li>
+<p><strong>Think of your game as a work of art.</strong> Think of it as a part of you, and have fun doing it, because most indie game developers don’t make any money!</p>
+</li>
+</ul>
+<p>Making a game is a huge investment in time, energy and resources, much like many other non-game development projects. The rewards are huge, though. You&#8217;ll add to your development skillset and create something new. And you never know—it might help you achieve Nerdvana!</p>
+<p>The post <a href="http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/">A recipe for creating iOS games</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>June 29th Coderetreat open for registration</title>
+		<link>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/</link>
+		<comments>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/#comments</comments>
+		<pubDate>Thu, 30 May 2013 17:48:40 +0000</pubDate>
+		<dc:creator>Stafford Brooke</dc:creator>
+				<category><![CDATA[Atlanta]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Craftsmanship]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2882</guid>
+		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/code-retreat-2/" rel="attachment wp-att-2895"></a></p>
+<p>I&#8217;m excited to announce that we are teaming up with <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a> to hold a <a href="http://coderetreat.org/">Coderetreat</a> on June 29th at our Krog Street office in Atlanta.</p>
+<p>A Coderetreat is a daylong event where a small group of developers meet up to focus on improving their software design and development skills.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/">June 29th Coderetreat open for registration</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/code-retreat-2/" rel="attachment wp-att-2895"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/code-retreat1.jpg" alt="" title="code-retreat" width="590" height="101" class="aligncenter size-full wp-image-2895" /></a></p>
+<p>I&#8217;m excited to announce that we are teaming up with <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a> to hold a <a href="http://coderetreat.org/">Coderetreat</a> on June 29th at our Krog Street office in Atlanta.</p>
+<p>A Coderetreat is a daylong event where a small group of developers meet up to focus on improving their software design and development skills. It is an intense day of coding where we get to pair program with others, learn new problem-solving techniques and focus 100% on doing it right.</p>
+<p>The event is free and is open to all software developers who are interested improving their software design and development skills. Participants will pair with each other during six sessions that will each focus on different aspects of crafting outstanding code.</p>
+<p>If you are interested in attending, you can register <a href="http://www.eventbrite.com/event/6892998143">here</a>. There is a $10 deposit required to reserve your spot, which will be refunded when you sign in at the event. The event starts at 9:30 a.m. and will finish up around 6 p.m. Lunch and other refreshments will be provided, thanks to our co-sponsors, <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a>.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/">June 29th Coderetreat open for registration</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>The Hyrel 3D Printer: A Big Nerd Ranch Tech Talk</title>
+		<link>http://blog.bignerdranch.com/2886-the-hyrel-3d-printer-a-big-nerd-ranch-tech-talk/</link>
+		<comments>http://blog.bignerdranch.com/2886-the-hyrel-3d-printer-a-big-nerd-ranch-tech-talk/#comments</comments>
+		<pubDate>Wed, 29 May 2013 23:07:36 +0000</pubDate>
+		<dc:creator>Tasha Schroeder</dc:creator>
+				<category><![CDATA[Tech Talks]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2886</guid>
+		<description><![CDATA[<p><p><a href="http://bit.ly/ZudeYM"></a></p>
+<p>In <a href="http://bit.ly/ZudeYM">this Tech Talk</a>, Daniel discusses how the Kickstarter-funded <a href="http://hyrel3d.com">HYREL 3D printer</a> overcomes the problems faced by other printers. He covers traditional manufacturing processes and how 3D printing is changing them. The best part? The HYREL 3D can even print with chocolate.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2886-the-hyrel-3d-printer-a-big-nerd-ranch-tech-talk/">The Hyrel 3D Printer: A Big Nerd Ranch Tech Talk</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://bit.ly/ZudeYM"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/3d-printer.jpg" alt="" title="3d printer" width="595" height="362" class="aligncenter size-full wp-image-2887" /></a></p>
+<p>In <a href="http://bit.ly/ZudeYM">this Tech Talk</a>, Daniel discusses how the Kickstarter-funded <a href="http://hyrel3d.com">HYREL 3D printer</a> overcomes the problems faced by other printers. He covers traditional manufacturing processes and how 3D printing is changing them. The best part? The HYREL 3D can even print with chocolate.</p>
+<p>The post <a href="http://blog.bignerdranch.com/2886-the-hyrel-3d-printer-a-big-nerd-ranch-tech-talk/">The Hyrel 3D Printer: A Big Nerd Ranch Tech Talk</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2886-the-hyrel-3d-printer-a-big-nerd-ranch-tech-talk/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>On the Road: Mobile Design in Kiev</title>
+		<link>http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/</link>
+		<comments>http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/#comments</comments>
+		<pubDate>Tue, 28 May 2013 20:08:22 +0000</pubDate>
+		<dc:creator>Brandy Porter</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[On the Road]]></category>
+
+		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2853</guid>
+		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/travelblogheader_kiev/" rel="attachment wp-att-2854"></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p><em>Pryvit</em> from beautiful Kiev, Ukraine!&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/">On the Road: Mobile Design in Kiev</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/travelblogheader_kiev/" rel="attachment wp-att-2854"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/TravelBlogHeader_Kiev.jpg" alt="" title="TravelBlogHeader_Kiev" width="595" height="226" class="aligncenter size-full wp-image-2854" /></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p><em>Pryvit</em> from beautiful Kiev, Ukraine!</p>
+<p>Brian and I are on the road hosting bootcamps for Windows 8 Design Principles. This week we were in Kiev, Ukraine, where we met our gracious Microsoft hosts, Nikita and Yevgen.</p>
+<p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/microsoft_team/" rel="attachment wp-att-2856"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/Microsoft_Team.jpg" alt="" title="Microsoft_Team" width=80% height="80%" class="aligncenter size-full wp-image-2856" /></a></p>
+<p>They took us on a walking tour of the city, where we saw several landmark churches, like St. Andrew’s Church pictured here, and statues commemorating figures from Ukraine’s rich history.</p>
+<p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/st-andrews-church/" rel="attachment wp-att-2858"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/St-Andrews-Church.jpg" alt="" title="St-Andrews-Church" width="80%" height="80%" class="aligncenter size-full wp-image-2858" /></a></p>
+<p>The turnout for the Windows 8 Design bootcamp was strong, and mentors from the local design community were on hand to help us during lab sessions. The attendees had some intriguing app ideas that I hope to see in the Windows Store soon!</p>
+<p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/brian_brandy_with_student/" rel="attachment wp-att-2855"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/Brian_Brandy_With_Student.jpg" alt="" title="Brian_Brandy_With_Student" width="80%" height="80%" class="aligncenter size-full wp-image-2855" /></a></p>
+<p>Today Brian and I visited Pirogovo, the National Museum of Folk Architecture and Lifestyle just outside of Kiev. It was a gorgeous day to learn about traditional Ukranian structures, crafts and ways of life.</p>
+<p><a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/pirogovo_museum/" rel="attachment wp-att-2857"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/Pirogovo_Museum.jpg" alt="" title="Pirogovo_Museum" width="80%" height="80%" class="aligncenter size-full wp-image-2857" /></a></p>
+<p>I am truly in love with this city and its culture, and honored to have been invited here! Next we head to the <a href="http://www.bignerdranch.com/locations/netherlands">Big Nerd Ranch Amsterdam office</a>, where we plan to host mobile design bootcamps for <a href="http://www.bignerdranch.com/classes/windows_mobile_design_-_corporate_training">Windows 8</a>, <a href="http://www.bignerdranch.com/classes/android_mobile_design_-_corporate_training">Android</a> and <a href="http://www.bignerdranch.com/classes/ios_mobile_design_workshop-_corporate_training">iOS</a>. There’s a reason it’s called Appsterdam!</p>
+<p>The post <a href="http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/">On the Road: Mobile Design in Kiev</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://blog.bignerdranch.com/2853-on-the-road-mobile-design-in-kiev/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

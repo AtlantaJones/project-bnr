@@ -11,6 +11,7 @@ $bnrYellow:       #e8ae10;
 $bnrBurntYellow:  #bb8d0a;
 $orange:          #ff6666;
 $bnrGreen:        #766000;
+$greenHeadline:   $bnrGreen;
 $red:             #d30b0b;
 
 
@@ -62,4 +63,18 @@ $red:             #d30b0b;
   font-weight: $weight;
   font-size: remCalc($size);
 }
+
+// The BNR site uses the normal browser box model (ie, widths and heights are adjusted based on the element's padding)
+// Foundation normalizes everything to use 'box-sizing: border-box' (IE8 and above). To avoid having to change widths
+// and heights across the board, we're setting it back for now
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+
 

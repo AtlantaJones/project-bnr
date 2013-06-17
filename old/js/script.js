@@ -6,8 +6,8 @@ $.fn.digits = function () {
     });
 };
 
-var toggleClosed = '<img src="/images/toggle_open.png" width="15" height="25">Open';
-var toggleOpen = '<img src="/images/toggle_close.png" width="15" height="24">Close';
+var toggleClosed = '<img src="/old/images/toggle_open.png" width="15" height="25">Open';
+var toggleOpen = '<img src="/old/images/toggle_close.png" width="15" height="24">Close';
 var tableCellHeightSetup = function () {
     $("tr.info_txt").each(function (i) {
         var that = $(this), rowHeight = parseInt(that.height(), 10), mod = (i % 2), tdCells = $(that.find("td div.tdCell")), tds;
@@ -396,7 +396,7 @@ var //removes html5 fb button from ie7 and inserts <!-- <iframe> -->
 };
 var renderBlogPost = function() {
 	$.ajax({
-		url: "/js/blog.xml",  // URLs should always be absolute
+		url: "/old/js/blog.xml",  // URLs should always be absolute
         type: 'post',
 		dataType: 'xml'
 	}).success(function(payload) {
@@ -649,10 +649,10 @@ $(document).ready(function () {
 
     // Retrieve latest tweet from Aaron
     // processTweets("aarontweet", "//twitter.com/statuses/user_timeline/AaronHillegass.json");
-    processTweets("aarontweet", "js/AaronHillegass.json");
+    processTweets("aarontweet", "/old/js/AaronHillegass.json");
 
     // Retrieve latest tweet from Big Nerd Ranch
     // processTweets("bnrtweet", "//twitter.com/statuses/user_timeline/BigNerdRanch.json");
-    processTweets("bnrtweet", "js/BigNerdRanch.json");
+    processTweets("bnrtweet", "/old/js/BigNerdRanch.json");
 
 });
