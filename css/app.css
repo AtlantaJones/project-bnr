@@ -1945,7 +1945,7 @@ div#container {
 }
 
 header {
-  background: url("../old/images/header_1008px_bg.png") no-repeat center top;
+  background: url("../images/header_1008px_bg.png") no-repeat center top;
   display: block;
   width: 1008px;
   height: 127px;
@@ -1981,12 +1981,10 @@ header div#navOff {
 }
 
 header nav {
-  position: absolute;
-  top: 70px;
-  left: 270px;
-  width: 750px;
+  float: left;
+  position: relative;
   z-index: 9999;
-  padding-top: 30px;
+  padding-top: 33px;
 }
 
 header nav ul {
@@ -2000,7 +1998,7 @@ header nav ul li {
   display: block;
   float: left;
   padding: 0;
-  margin: 0;
+  margin: 0 2px;
 }
 
 header nav ul li a.topLink {
@@ -2012,12 +2010,13 @@ header nav ul li a {
   font-weight: 400;
   display: block;
   font-size: 14px;
-  margin: 0 2px;
+  margin: 0;
   height: 14px;
-  padding: 7px 9px 10px;
+  padding: 7px 9px;
   color: #ffffff;
   text-shadow: 2px 2px 5px #543d07;
   filter: dropshadow(color=#543d07, offx=0.5, offy=1);
+  white-space: nowrap;
 }
 
 header nav ul li a#home_link {
@@ -3559,4 +3558,30 @@ a.inputSubmitArrow2.base {
   -moz-box-sizing: inherit;
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
+}
+
+#logo {
+  background: transparent url(../images/logo-bnr.png) no-repeat left top;
+  float: left;
+  height: 68px;
+  margin-top: 15px;
+  padding-right: 6.5%;
+  width: 179px;
+}
+@media screen and (min-width: 807px) and (max-width: 853px) {
+  #logo {
+    padding-right: 0;
+  }
+}
+
+header nav {
+  float: left;
+  position: relative;
+  z-index: 9999;
+  padding-top: 33px;
+}
+@media screen and (max-width: 853px) {
+  header nav {
+    float: right;
+  }
 }

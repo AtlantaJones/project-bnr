@@ -561,7 +561,7 @@ div#container {
   overflow: hidden;
 }
 header {
-  background: url('../old/images/header_1008px_bg.png') no-repeat center top;
+  background: url('../images/header_1008px_bg.png') no-repeat center top;
   display: block;
   width: 1008px;
   height: 127px;
@@ -598,12 +598,13 @@ header div#navOff {
   z-index: 800;
 }
 header nav {
-  position: absolute;
-  top: 70px;
-  left: 270px;
-  width: 750px;
+  float:left;
+  position: relative;
+  //top: 70px;
+  //left: 270px;
+  //width: 750px;
   z-index: 9999;
-  padding-top:30px;
+  padding-top:33px;
 }
 header nav ul {
   height: 31px;
@@ -615,7 +616,7 @@ header nav ul li {
   display: block;
   float: left;
   padding: 0;
-  margin: 0;
+  margin: 0 2px;
 }
 header nav ul li a.topLink {
   text-transform: uppercase;
@@ -625,12 +626,13 @@ header nav ul li a {
   font-weight: 400;
   display: block;
   font-size: 14px;
-  margin: 0 2px;
+  margin: 0;
   height: 14px;
-  padding: 7px 9px 10px;
+  padding: 7px 9px;
   color: #ffffff;
   text-shadow: 2px 2px 5px #543d07;
   filter: dropshadow(color=#543d07, offx=0.5, offy=1);
+  white-space:nowrap;
 }
 header nav ul li a#home_link {
   display: block;

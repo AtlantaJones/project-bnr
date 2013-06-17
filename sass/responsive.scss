@@ -77,4 +77,29 @@ $red:             #d30b0b;
   }
 
 
+// Header ------------------------------------------------------------- //
+
+#logo {
+  background:transparent url(../images/logo-bnr.png) no-repeat left top;
+  float: left;
+  height:68px;
+  margin-top: 15px;
+  padding-right:6.5%;
+  width:179px;
+
+  @media screen and (min-width: "807px") and (max-width: "853px") {
+    padding-right:0;
+  }
+}
+
+header nav {
+  float:left;
+  position: relative;
+  z-index: 9999;
+  padding-top:33px;
+
+  @media screen and (max-width: "853px") {
+    float:right;
+  }
+}
 
