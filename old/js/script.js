@@ -366,17 +366,17 @@ var toggleNewsArrow = function () {
     });
 };
 
-var collapse = function () {
-	if($('.collapse').length > 0){
-		$('.collapse').collapse();
-	}
-},	submitForm = function () {
-	$('#searchInputSubmit_side, #searchInputSubmit_side_sidebar').click( function(e){
-		e.preventDefault();
-		$('#mc-embedded-subscribe-form, #mc-embedded-subscribe-form_sidebar').submit();
-	});
-
-};
+//var collapse = function () {
+//	if($('.collapse').length > 0){
+//		$('.collapse').collapse();
+//	}
+//},	submitForm = function () {
+//	$('#searchInputSubmit_side, #searchInputSubmit_side_sidebar').click( function(e){
+//		e.preventDefault();
+//		$('#mc-embedded-subscribe-form, #mc-embedded-subscribe-form_sidebar').submit();
+//	});
+//
+//};
 
 var //removes duplicate li in cocoa class listing page
 	individualClassListingFix = function () {
@@ -575,8 +575,8 @@ jQuery("document").ready(function () {
     updateTweetCount();
     updateFacebookCount();
     imageRollover();
-    collapse();
-    submitForm();
+    //collapse();
+    //submitForm();
     ie7FBFix();
     individualClassListingFix();
     renderBlogPost();
