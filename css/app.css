@@ -4146,4 +4146,33 @@ header nav {
   position: relative;
   top: 0;
   width: 100%;
+  z-index: 50;
+}
+
+#slideShowBanner {
+  top: 0;
+}
+
+#homeTopRightInfo {
+  margin-left: 10px;
+  position: static;
+  width: 100%;
+}
+
+#homeTopRightInfo #yellowBox {
+  height: auto;
+  padding-bottom: 21px;
+  position: relative;
+  width: 100%;
+}
+
+#yellowBox .activeInfo {
+  right: -25px;
+  top: 10px;
+  z-index: 100;
+}
+
+#yellowBoxHat {
+  bottom: -30px;
+  right: -60px;
 }
