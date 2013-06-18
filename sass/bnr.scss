@@ -597,15 +597,15 @@ header div#navOff {
   display: none;
   z-index: 800;
 }
-header nav {
-  float:left;
-  position: relative;
-  //top: 70px;
-  //left: 270px;
-  //width: 750px;
-  z-index: 9999;
-  padding-top:33px;
-}
+//header nav {
+//  float:left;
+//  position: relative;
+//  //top: 70px;
+//  //left: 270px;
+//  //width: 750px;
+//  z-index: 9999;
+//  padding-top:33px;
+//}
 header nav ul {
   height: 31px;
   padding: 0;
@@ -640,7 +640,8 @@ header nav ul li a#home_link {
   background: url('../old/images/logo.png') no-repeat 8px 4px;
 }
 header nav ul li a:hover,
-header nav ul li a.active {
+header nav ul li a.active,
+.link-sammich {
   border: 1px solid none;
   /* Safari 5, Chrome support border-radius without vendor prefix.
 	 * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
@@ -677,7 +678,8 @@ header nav ul li div.subNavBox {
 header nav ul li div.subNavContainer {
   border-top: 3px solid #e8ae10;
 }
-header nav ul li ul.subNav {
+header nav ul li ul.subNav,
+.nav-drawer {
   height: auto;
   padding: 0;
   margin-top: 1px;
