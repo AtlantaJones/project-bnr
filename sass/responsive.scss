@@ -387,6 +387,21 @@ footer {
   position:static;
 }
 
+footer .columns:last-child {
+  //width:20%;
+}
+
 footer #legal_info {
   position:static;
+}
+
+footer .footerCol {
+  float:none;
+  margin:0 !important;
+  padding:0;
+  height:auto;
+}
+
+footer #col_1 {
+  width:100%;
 }

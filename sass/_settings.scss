@@ -90,7 +90,7 @@ $default-float: left;
 // Media Queries
 
 $small-screen: 768px;
-$medium-screen: 992px;
+$medium-screen: 1024px;
 $large-screen: 1440px;
 
 // $screen: "only screen";
@@ -105,7 +105,7 @@ $large-screen: 1440px;
 
 $xsmall: "only screen and (min-width:"#{emCalc(481px)}")";
 $small: "only screen and (min-width:"#{emCalc(768px)}")";
-$medium: "only screen and (min-width:"#{emCalc(992px)}")";
+$medium: "only screen and (min-width:"#{emCalc(1024px)}")";
 $large: "only screen and (min-width:"#{emCalc(1440px)}")";
 
 $smalltablet: "only screen and (min-width : "#{emCalc(480px)}") and (max-width : "#{emCalc(767px)}")";
@@ -129,7 +129,7 @@ $alltablets: "only screen and (min-width : "#{emCalc(480px)}") and (max-device-w
 // $column-gutter: emCalc(30px);
 // $total-columns: 12;
 
-$row-width: emCalc(992px);
+$row-width: emCalc(1024px);
 $column-gutter: emCalc(28px);
 $total-columns: 12;
 
