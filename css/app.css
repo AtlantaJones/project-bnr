@@ -1060,7 +1060,7 @@ th.hide-for-xlarge {
   }
 }
 /* Large Displays: 1280px - 1440px */
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 62em) {
   .show-for-large,
   .show-for-large-up {
     display: inherit !important;
@@ -4136,13 +4136,17 @@ header nav {
 }
 
 .feature {
+  margin-bottom: 25px;
   padding-top: 20px;
-  min-height: 376px;
+}
+
+.feature div:first-child {
+  padding-right: 0;
 }
 
 #homeSlideShow {
   height: auto;
-  max-width: 628px;
+  max-width: inherit;
   position: relative;
   top: 0;
   width: 100%;
@@ -4150,29 +4154,148 @@ header nav {
 }
 
 #slideShowBanner {
+  left: 14px;
   top: 0;
 }
 
 #homeTopRightInfo {
-  margin-left: 10px;
+  height: auto;
+  margin-left: 0;
   position: static;
   width: 100%;
 }
+@media only screen and (min-width: 48em) {
+  #homeTopRightInfo {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+  .topRightInfoTxt h3,
+  .topRightInfoTxt a {
+    font-size: 16px;
+  }
+}
+
+.topRightInfoTxt p {
+  padding: 2px 35px;
+}
+@media screen and (min-width: 768px) and (max-width: 920px) {
+  .topRightInfoTxt p {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .topRightInfoTxt p {
+    padding: 2px 15px;
+  }
+}
 
 #homeTopRightInfo #yellowBox {
+  background-size: cover;
   height: auto;
-  padding-bottom: 21px;
+  padding-bottom: 30px;
   position: relative;
   width: 100%;
 }
+@media screen and (min-width: 768px) and (max-width: 885px) {
+  #homeTopRightInfo #yellowBox {
+    padding-top: 25px;
+  }
+}
 
 #yellowBox .activeInfo {
-  right: -25px;
+  background-image: url(../images/home_top_right_active_banner-480.png);
   top: 10px;
+  -webkit-transition: top 150ms linear, right 150ms linear;
+  -moz-transition: top 150ms linear, right 150ms linear;
+  -ms-transition: top 150ms linear, right 150ms linear;
+  -o-transition: top 150ms linear, right 150ms linear;
+  transition: top 150ms linear, right 150ms linear;
   z-index: 100;
+  width: 109%;
+  height: 82px;
+  background-size: 100% 100%;
+  right: inherit;
+  left: -3.1%;
+  padding-top: 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 885px) {
+  #yellowBox .activeInfo {
+    height: 60px;
+    padding-left: 17px;
+    width: 124%;
+    left: inherit;
+    right: -21px;
+    top: -9px;
+    background-size: 100% 100%;
+  }
+  #yellowBox .activeInfo h1, #yellowBox .activeInfo h2 {
+    font-size: 1.2em;
+    line-height: .5em;
+  }
+  #yellowBox .activeInfo .thinHeaderTxt {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 885px) {
+  #yellowBox .activeInfo {
+    background-image: url(../old/images/home_top_right_active_banner.png);
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    left: inherit;
+    width: 334px;
+    height: 88px;
+  }
 }
 
 #yellowBoxHat {
-  bottom: -30px;
-  right: -60px;
+  right: -37px;
+  bottom: -49px;
+}
+@media only screen and (min-width: 48em) {
+  #yellowBoxHat {
+    bottom: -30px;
+    right: -60px;
+  }
+}
+
+#midSection {
+  min-height: 634px;
+  padding-top: 25px;
+}
+
+.section-box-banner,
+.home_col {
+  width: 100% !important;
+}
+
+#home_twitter_box {
+  width: 100%;
+}
+
+span.sectionFooterBanner {
+  left: 0 !important;
+  width: 100%;
+}
+
+.class_item {
+  height: auto;
+}
+
+#home_mid_title {
+  position: static;
+}
+
+#home_mid_title h4 {
+  width: 100%;
+}
+
+#client_carousel {
+  position: static;
+}
+
+#client_carousel .slider {
+  width: 100%;
 }

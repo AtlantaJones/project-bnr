@@ -89,9 +89,9 @@ $default-float: left;
 
 // Media Queries
 
-// $small-screen: 768px;
-// $medium-screen: 1280px;
-// $large-screen: 1440px;
+$small-screen: 768px;
+$medium-screen: 992px;
+$large-screen: 1440px;
 
 // $screen: "only screen";
 // $small: "only screen and (min-width: #{$small-screen})";
@@ -105,7 +105,7 @@ $default-float: left;
 
 $xsmall: "only screen and (min-width:"#{emCalc(481px)}")";
 $small: "only screen and (min-width:"#{emCalc(768px)}")";
-$medium: "only screen and (min-width:"#{emCalc(1280px)}")";
+$medium: "only screen and (min-width:"#{emCalc(992px)}")";
 $large: "only screen and (min-width:"#{emCalc(1440px)}")";
 
 $smalltablet: "only screen and (min-width : "#{emCalc(480px)}") and (max-width : "#{emCalc(767px)}")";
