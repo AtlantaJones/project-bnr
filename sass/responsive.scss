@@ -379,3 +379,14 @@ span.sectionFooterBanner {
 #client_carousel .slider {
   width:100%;
 }
+
+footer {
+  background:url(../images/bkg-footer.jpg) repeat-x center top;
+  height:auto;
+  padding:40px 0 0 0;
+  position:static;
+}
+
+footer #legal_info {
+  position:static;
+}
