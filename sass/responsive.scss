@@ -90,7 +90,7 @@ body {
 // Header ------------------------------------------------------------- //
 
 #fullContainer {
-  min-height:1000px;
+  //min-height:1000px;
 }
 
 #logo {
@@ -342,7 +342,8 @@ header nav {
 
 
 #midSection {
-  min-height:634px;
+  min-height: inherit;
+  padding-bottom: 36px;
   padding-top:25px;
 }
 
@@ -366,10 +367,16 @@ span.sectionFooterBanner {
 
 #home_mid_title {
   position:static;
+  height:56px;
 }
 
 #home_mid_title h4 {
+  padding: 18px 0 0 0;
   width:100%;
+}
+
+.carousel-wrap {
+  background:url(../old/images/home_logo_car_bg.png) repeat-x center top;
 }
 
 #client_carousel {
@@ -382,8 +389,9 @@ span.sectionFooterBanner {
 
 footer {
   background:url(../images/bkg-footer.jpg) repeat-x center top;
-  height:auto;
-  padding:40px 0 0 0;
+  min-height:300px;
+  height:inherit;
+  padding:0;
   position:static;
 }
 
@@ -399,9 +407,52 @@ footer .footerCol {
   float:none;
   margin:0 !important;
   padding:0;
-  height:auto;
+  height:inherit;
 }
 
 footer #col_1 {
   width:100%;
+}
+
+.footer-nav-wrap {
+  background:url(../images/bkg-footer-nav.jpg) repeat-x center top;
+  clear:both;
+  height:54px;
+  //margin:40px 0;
+}
+
+.footer-nav-wrap > .row {
+  position:relative;
+}
+
+footer > section.row {
+  background: url(../old/images/nerdvana_new.png) no-repeat center -19px;
+  padding-top: 40px;
+  min-height: 226px;
+}
+
+footer nav ul {
+  padding:7px 0 0 0;
+}
+
+.class_listing {
+  padding:0;
+}
+
+.legalText p {
+  color: #bb8d0a !important;
+  margin:0;
+  text-align:center;
+  a {
+    color: #bb8d0a;
+  }
+}
+
+div.studentLoginBtn {
+  bottom: inherit;
+  top: 10px;
+}
+
+.mc-field-group.base input {
+  width:184px !important;
 }

@@ -28,13 +28,9 @@ var tableCellHeightSetup = function () {
     });
 };
 var homeClassZebraStripe = function () {
-    $(".class_item").each(function (i) {
-        var that = $(this), mod = (i % 2);
-        if (mod === 1) {
-            that.addClass("zebra_highlight");
-        }
-    });
+    $('.class_item:nth-child(even)').addClass("zebra_highlight");
 };
+
 // var footerLinkSetup = function () {
 //     $("a.footer-social-links").each(function () {
 //         var that = $(this);
