@@ -82,6 +82,14 @@ $red:             #d30b0b;
   box-sizing: border-box;
 }
 
+.columns.alpha {
+  padding-left:0 !important;
+}
+
+.columns.omega {
+  padding-right:0 !important;
+}
+
 
 body {
   background:url('');
@@ -101,7 +109,7 @@ body {
   @include vendorize(transition, #{width 150ms linear, margin 150ms linear});
   width:179px;
 
-  @media #{$small} {
+  @media #{$medium} {
 
   }
 
@@ -124,7 +132,7 @@ header nav {
   padding-top:33px;
   padding-left:58px;
 
-  @media #{$small} {
+  @media #{$medium} {
     display:block;
   }
 
@@ -148,7 +156,7 @@ header nav {
   padding: 10px;
   width:33px;
 
-  @media #{$small} {
+  @media #{$medium} {
     display:none;
   }
 }
@@ -168,7 +176,7 @@ header nav {
     top:-62px;
   }
 
-  @media #{$small} {
+  @media #{$medium} {
     top:-89px !important;
   }
 
@@ -248,7 +256,7 @@ header nav {
   position:static;
   width:100%;
 
-    @media #{$small} {
+    @media #{$medium} {
       margin-left:10px;
     }
 }
@@ -269,7 +277,7 @@ header nav {
     font-size:11px;
   }
 
-  @media #{$small} {
+  @media #{$medium} {
     padding:2px 15px;
   }
 }
@@ -334,7 +342,7 @@ header nav {
   right: -37px;
   bottom: -49px;
 
-  @media #{$small} {
+  @media #{$medium} {
     bottom: -30px;
     right: -60px;
   }
@@ -405,9 +413,10 @@ footer #legal_info {
 
 footer .footerCol {
   float:none;
-  margin:0 !important;
+  margin:0 0 25px 0 !important;
   padding:0;
   height:inherit;
+  width:100% !important;
 }
 
 footer #col_1 {
@@ -429,9 +438,12 @@ footer #col_1 {
 }
 
 footer > section.row {
-  background: url(../images/nerdvana-text.png) no-repeat center 0;
   padding-top: 40px;
   min-height: 220px;
+
+    @media #{$large} {
+      background: url(../images/nerdvana-text.png) no-repeat center 0;
+    }
 }
 
 footer nav ul {
@@ -458,7 +470,16 @@ footer nav ul {
 
 div.studentLoginBtn {
   bottom: inherit;
-  top: 10px;
+
+  @media #{$medium} {
+
+  }
+
+  @media #{$large} {
+    top: 10px;
+  }
+
+
 }
 
 .mc-field-group.base input {
@@ -472,4 +493,71 @@ div.studentLoginBtn {
   height:58px;
   top:-29px;
   width:100%;
+}
+
+.stay-connected {
+  width:165px;
+
+  @media #{$medium} {
+    width:190px;
+  }
+
+  @media #{$large} {
+    width:220px;
+  }
+}
+
+.stay-connected > div > a {
+  //display:none;
+  //@media #{$medium} {
+  //  display:block;
+  //}
+}
+
+#mc_embed_signup {
+  margin-right:7px;
+}
+
+#mc_embed_signup,
+.mc-field-group.base input {
+  width:100% !important;
+  @media #{$medium} {
+    width:inherit;
+  }
+}
+
+.mc-field-group.base input {
+  height: 27px;
+  @include remFont(12);
+
+    @media #{$medium} {
+      @include remFont(14);
+    }
+}
+
+
+
+.nerd-awards {
+  position:static;
+  width:150px;
+
+  @media #{$medium} {
+    width:195px;
+  }
+
+  img {
+    float:none;
+    position:static !important;
+
+    &.inc-5000 {
+      margin:15px 0 0 0;
+    }
+
+    @media #{$medium} {
+      float:left;
+      &.inc-5000 {
+        margin:21px 0 0 15px;
+      }
+    }
+  }
 }
