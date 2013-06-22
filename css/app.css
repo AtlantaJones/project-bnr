@@ -4310,10 +4310,10 @@ span.sectionFooterBanner {
 
 footer {
   background: url(../images/bkg-footer.jpg) repeat-x center top;
-  min-height: 300px;
+  min-height: 325px;
   height: inherit;
   padding: 0;
-  position: static;
+  position: relative;
 }
 
 footer #legal_info {
@@ -4336,15 +4336,18 @@ footer #col_1 {
   clear: both;
   height: 54px;
 }
+.footer-nav-wrap nav {
+  margin-top: 9px;
+}
 
 .footer-nav-wrap > .row {
   position: relative;
 }
 
 footer > section.row {
-  background: url(../old/images/nerdvana_new.png) no-repeat center -19px;
+  background: url(../images/nerdvana-text.png) no-repeat center 0;
   padding-top: 40px;
-  min-height: 226px;
+  min-height: 220px;
 }
 
 footer nav ul {
@@ -4355,12 +4358,15 @@ footer nav ul {
   padding: 0;
 }
 
+.legalText {
+  margin-top: 26px;
+}
 .legalText p {
   color: #bb8d0a !important;
   margin: 0;
   text-align: center;
 }
-.legalText p a {
+.legalText a {
   color: #bb8d0a;
 }
 
@@ -4371,4 +4377,13 @@ div.studentLoginBtn {
 
 .mc-field-group.base input {
   width: 184px !important;
+}
+
+.banner-nerdvana {
+  background: url(../images/banner-nerdvana.png) no-repeat center center;
+  left: 0;
+  position: absolute;
+  height: 58px;
+  top: -29px;
+  width: 100%;
 }
