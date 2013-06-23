@@ -4298,6 +4298,12 @@ body {
   background: url("");
 }
 
+@media only screen and (min-width: 48em) {
+  span.hide-for-small {
+    display: inline !important;
+  }
+}
+
 #logo {
   float: left;
   height: 68px;
@@ -4439,6 +4445,22 @@ header nav {
 #slideShowBanner {
   left: 14px;
   top: 0;
+  width: 85px;
+  -webkit-transition: width 150ms linear;
+  -moz-transition: width 150ms linear;
+  -ms-transition: width 150ms linear;
+  -o-transition: width 150ms linear;
+  transition: width 150ms linear;
+}
+@media only screen and (min-width: 48em) {
+  #slideShowBanner {
+    width: 110px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #slideShowBanner {
+    width: 138px;
+  }
 }
 
 #homeTopRightInfo {
@@ -4453,7 +4475,7 @@ header nav {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 920px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .topRightInfoTxt h3,
   .topRightInfoTxt a {
     font-size: 16px;
@@ -4463,7 +4485,7 @@ header nav {
 .topRightInfoTxt p {
   padding: 2px 35px;
 }
-@media screen and (min-width: 768px) and (max-width: 920px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .topRightInfoTxt p {
     font-size: 11px;
   }
@@ -4483,7 +4505,7 @@ header nav {
 }
 @media screen and (min-width: 768px) and (max-width: 885px) {
   #homeTopRightInfo #yellowBox {
-    padding-top: 25px;
+    padding-top: 29px;
   }
 }
 
@@ -4544,9 +4566,15 @@ header nav {
   }
 }
 
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+  #yellowBox hr {
+    margin: 5px 0;
+  }
+}
+
 #midSection {
   min-height: inherit;
-  padding-bottom: 36px;
+  padding-bottom: 12px;
   padding-top: 25px;
 }
 
@@ -4555,12 +4583,35 @@ header nav {
   width: 100% !important;
 }
 
+.home_col {
+  padding-bottom: 77px !important;
+}
+@media only screen and (min-width: 64em) {
+  .home_col {
+    padding-bottom: 25px !important;
+  }
+}
+
 #home_twitter_box {
   width: 100%;
 }
 
+.home_twitter_after {
+  top: inherit;
+  bottom: -26px;
+  left: inherit;
+  right: -12%;
+  height: 103px;
+}
+@media only screen and (min-width: 64em) {
+  .home_twitter_after {
+    bottom: -78px;
+  }
+}
+
 span.sectionFooterBanner {
   left: 0 !important;
+  bottom: 20px;
   width: 100%;
 }
 
@@ -4582,6 +4633,16 @@ span.sectionFooterBanner {
   background: url(../old/images/home_logo_car_bg.png) repeat-x center top;
 }
 
+.carousel .item img {
+  height: auto;
+  width: 100%;
+}
+@media only screen and (min-width: 64em) {
+  .carousel .item img {
+    height: 308px;
+  }
+}
+
 #client_carousel {
   position: static;
 }
@@ -4594,7 +4655,7 @@ footer {
   background: url(../images/bkg-footer.jpg) repeat-x center top;
   min-height: 325px;
   height: inherit;
-  padding: 0;
+  padding: 0 0 110px 0;
   position: relative;
 }
 
@@ -4619,9 +4680,6 @@ footer #col_1 {
   clear: both;
   height: 54px;
 }
-.footer-nav-wrap nav {
-  margin-top: 9px;
-}
 
 .footer-nav-wrap > .row {
   position: relative;
@@ -4638,7 +4696,23 @@ footer > section.row {
 }
 
 footer nav ul {
-  padding: 7px 0 0 0;
+  padding: 5px;
+}
+@media only screen and (min-width: 30.0625em) {
+  footer nav ul {
+    padding: 15px 0 0 0;
+  }
+}
+
+footer nav ul li a {
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+@media only screen and (min-width: 30.0625em) {
+  footer nav ul li a {
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
 }
 
 .class_listing {
@@ -4658,11 +4732,18 @@ footer nav ul {
 }
 
 div.studentLoginBtn {
-  bottom: inherit;
+  width: 147px;
+  margin: 12px auto 0 auto;
+  position: static;
 }
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 48em) {
   div.studentLoginBtn {
-    top: 10px;
+    position: absolute;
+    bottom: inherit;
+    left: inherit;
+    margin: 0;
+    right: 30px;
+    top: 11px;
   }
 }
 
@@ -4680,16 +4761,20 @@ div.studentLoginBtn {
 }
 
 .stay-connected {
-  width: 165px;
+  padding: 0;
 }
 @media only screen and (min-width: 48em) {
   .stay-connected {
-    width: 190px;
+    min-width: 351px;
   }
 }
-@media only screen and (min-width: 64em) {
-  .stay-connected {
-    width: 220px;
+
+.ranch-report {
+  display: none;
+}
+@media only screen and (min-width: 48em) {
+  .ranch-report {
+    display: block;
   }
 }
 
@@ -4722,11 +4807,10 @@ div.studentLoginBtn {
 
 .nerd-awards {
   position: static;
-  width: 150px;
 }
 @media only screen and (min-width: 48em) {
   .nerd-awards {
-    width: 195px;
+    min-width: 175px;
   }
 }
 .nerd-awards img {

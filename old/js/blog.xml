@@ -1,35 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+        >
 
-<channel>
-	<title>Big Nerd Ranch Blog</title>
-	<atom:link href="http://blog.bignerdranch.com/feed/" rel="self" type="application/rss+xml" />
-	<link>http://blog.bignerdranch.com</link>
-	<description>We offer classes for programmers in a resort-like setting, and this is our blog.</description>
-	<lastBuildDate>Wed, 19 Jun 2013 22:58:26 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>http://wordpress.org/?v=3.4.2</generator>
-		<item>
-		<title>WWDC Gypsy Caravan</title>
-		<link>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/</link>
-		<comments>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/#comments</comments>
-		<pubDate>Wed, 19 Jun 2013 22:58:26 +0000</pubDate>
-		<dc:creator>Tasha Schroeder</dc:creator>
-				<category><![CDATA[Community]]></category>
-		<category><![CDATA[Conferences]]></category>
+    <channel>
+        <title>Big Nerd Ranch Blog</title>
+        <atom:link href="http://blog.bignerdranch.com/feed/" rel="self" type="application/rss+xml" />
+        <link>http://blog.bignerdranch.com</link>
+        <description>We offer classes for programmers in a resort-like setting, and this is our blog.</description>
+        <lastBuildDate>Thu, 20 Jun 2013 21:27:31 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.org/?v=3.4.2</generator>
+        <item>
+            <title>On the Road: Mobile Design in India</title>
+            <link>http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/</link>
+            <comments>http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/#comments</comments>
+            <pubDate>Thu, 20 Jun 2013 21:27:31 +0000</pubDate>
+            <dc:creator>Brandy Porter</dc:creator>
+            <category><![CDATA[Design]]></category>
+            <category><![CDATA[On the Road]]></category>
+            <category><![CDATA[Windows 8]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=3047</guid>
-		<description><![CDATA[<p><p>We&#8217;re settling into our usual routines after returning from a great week in San Francisco and WWDC. We wrote about the WWDC keynote, both its <a href="http://bit.ly/1939iim">focus on users</a> and on its <a href="http://bit.ly/17HuMDA">attention to the details</a>. <a href="http://www.bignerdranch.com/about_us/nerds/aaron_hillegass">Aaron</a> spoke at AltWWDC and at the Union Square Apple store.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/">WWDC Gypsy Caravan</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p>We&#8217;re settling into our usual routines after returning from a great week in San Francisco and WWDC. We wrote about the WWDC keynote, both its <a href="http://bit.ly/1939iim">focus on users</a> and on its <a href="http://bit.ly/17HuMDA">attention to the details</a>. <a href="http://www.bignerdranch.com/about_us/nerds/aaron_hillegass">Aaron</a> spoke at AltWWDC and at the Union Square Apple store. We ate delicious food and managed to sneak in visits to a few sights.</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=3070</guid>
+            <description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/travelblogheader_india/" rel="attachment wp-att-3076"></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p>I’ve done it again.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/">On the Road: Mobile Design in India</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+            <content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/travelblogheader_india/" rel="attachment wp-att-3076"><img class="aligncenter size-full wp-image-3076" title="TravelBlogHeader_India" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/TravelBlogHeader_India.jpg" alt="" width="595" height="226" /></a></p>
+<p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
+<p>I’ve done it again. I’ve fallen in love with another country.</p>
+<p>Getting into India took a surprising amount of effort: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian</a> and I had to get a variety of vaccines for the trip, and we went through several hoops to get our business visas in time. The midnight ride from the airport in Bangalore was harrowing; there isn’t much discipline to the way Bangalore taxies are driven.</p>
+<p>However, once we settled into our beautiful hotel we had a conference call with Mark and Sandeep, our Microsoft contacts, and everything came together. We confirmed our plans for the week, then explored the IT capitol of India via rickshaw.</p>
+<p style="text-align: center;"><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/lakshmiroad/" rel="attachment wp-att-3073"><img class="aligncenter  wp-image-3073" title="LakshmiRoad" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/LakshmiRoad.jpg" alt="" width="576" height="432" /></a></p>
+<p>Learning the customs of the country took a few days, but by the end of the week we were very comfortable. I stood out as a (very fair) Westerner, and got a few stares, but my broad smile was returned warmly.</p>
+<p><div id="attachment_3071" class="wp-caption aligncenter" style="width: 584px"><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/bangalorecamp/" rel="attachment wp-att-3071"><img class=" wp-image-3071 " title="BangaloreCamp" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/BangaloreCamp.jpg" alt="" width="574" height="323" /></a><p class="wp-caption-text">Photo courtesy Rahul Karpurapu, a camp attendee.</p></div>
+<p>The class in Bangalore was held at Microsoft’s office, nestled among other well-known tech companies. There were around 30 attendees, most of them IT professionals or students, and all interested in learning more about design. It was encouraging to see so many developers learning design principles. It is something we have seen at the Ranch, and it’s rewarding to be a part of sharing design knowledge with others in different disciplines.</p>
+<p><div id="attachment_3075" class="wp-caption aligncenter" style="width: 586px"><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/punestage/" rel="attachment wp-att-3075"><img class=" wp-image-3075 " title="PuneStage" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/PuneStage.jpg" alt="" width="576" height="324" /></a><p class="wp-caption-text">Photo courtesy Microsoft India.</p></div>
+<p>In Pune, the camp attendees numbered more than 100, mostly designers this time. The camp was held in a beautiful (and intimidatingly large) Hyatt conference room, and the Microsoft team had a full stage set up with recording equipment. No pressure! The materials seemed to go over well, and the workshops were very productive. Afterwards a lot of attendees thanked us for the message, saying that it really brought home some key points for them. That makes it all worthwhile!</p>
+<p>After each event, attendees asked to have pictures taken with us, which was extremely flattering. I even had a few people tell me they had seen my Microsoft Virtual Academy videos online! Yep, I have fans in India.</p>
+<p>In Pune, most of the designers stayed late into the evening to participate in a “design jam.&#8221; They assembled visual designs for their workshop app concepts, competing for a prize. There were such great ideas from the day, and such enthusiastic participation in this after-hours event.</p>
+<p><div id="attachment_3074" class="wp-caption aligncenter" style="width: 586px"><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/punecampteam/" rel="attachment wp-att-3074"><img class=" wp-image-3074 " title="PuneCampTeam" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/PuneCampTeam.jpg" alt="" width="576" height="384" /></a><p class="wp-caption-text">Photo courtesy Microsoft India.</p></div>
+<p>We were able to spend an extra day in Pune to experience the city, and got to visit Lakshmi Road Market and MG Road shops<em>—</em>we even saw a temple elephant being led down the street! The Microsoft team gave us each a beautiful carved wooden elephant to remember the moment by. That night, Sandeep and Aditee, another Microsoft colleague, took us to see a Bollywood film, <em>Yeh Jawani Hai Deewani</em>, at a local theatre. I am a huge Bollywood fan, and seeing this blockbuster in India made my year! This sort of warmth and hospitality was everywhere we turned in India. It really made it difficult to leave.</p>
+<p style="text-align: center;"><a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/elephantpune/" rel="attachment wp-att-3072"><img class="aligncenter  wp-image-3072" title="ElephantPune" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/ElephantPune.jpg" alt="" width="461" height="432" /></a></p>
+<p>I am looking forward to visiting India again soon. Brian is heading back home, and I am heading to meet <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff</a> in Japan for one more camp. Time to pick up a few Japanese phrases…<a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/travelblogheader_india/" rel="attachment wp-att-3076"><br /> </a></p>
+<p>The post <a href="http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/">On the Road: Mobile Design in India</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
+            <wfw:commentRss>http://blog.bignerdranch.com/3070-on-the-road-mobile-design-in-india/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>WWDC Gypsy Caravan</title>
+            <link>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/</link>
+            <comments>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/#comments</comments>
+            <pubDate>Wed, 19 Jun 2013 22:58:26 +0000</pubDate>
+            <dc:creator>Tasha Schroeder</dc:creator>
+            <category><![CDATA[Community]]></category>
+            <category><![CDATA[Conferences]]></category>
+
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=3047</guid>
+            <description><![CDATA[<p><p>We&#8217;re settling into our usual routines after returning from a great week in San Francisco and WWDC. We wrote about the WWDC keynote, both its <a href="http://bit.ly/1939iim">focus on users</a> and on its <a href="http://bit.ly/17HuMDA">attention to the details</a>. <a href="http://www.bignerdranch.com/about_us/nerds/aaron_hillegass">Aaron</a> spoke at AltWWDC and at the Union Square Apple store.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/">WWDC Gypsy Caravan</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+            <content:encoded><![CDATA[<p>We&#8217;re settling into our usual routines after returning from a great week in San Francisco and WWDC. We wrote about the WWDC keynote, both its <a href="http://bit.ly/1939iim">focus on users</a> and on its <a href="http://bit.ly/17HuMDA">attention to the details</a>. <a href="http://www.bignerdranch.com/about_us/nerds/aaron_hillegass">Aaron</a> spoke at AltWWDC and at the Union Square Apple store. We ate delicious food and managed to sneak in visits to a few sights.</p>
 <p><div id="attachment_3052" class="wp-caption aligncenter" style="width: 410px"><a href="http://instagram.com/p/ateY0TqdDv/" rel="attachment wp-att-3052"><img class="size-full wp-image-3052" title="bridge" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/bridge1.jpg" alt="" width="400" height="400" /></a><p class="wp-caption-text">More photos available on <a href="http://bit.ly/14KEq5j">our Instagram</a>.</p></div>
 <p>And of course, we threw a thank-you party to celebrate our clients, alumni and supporters, complete with fortune tellers, handwriting analysts and  a photobooth with a variety of props and swag.</p>
 <p><a href="http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/tarot/" rel="attachment wp-att-3056"><img class="aligncenter size-full wp-image-3056" title="tarot" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/tarot.jpg" alt="" width="400" height="400" /></a></p>
@@ -37,26 +72,28 @@
 <p>We&#8217;d also like to announce the winners of our <a href="http://www.bignerdranch.com/wwdc/">scavenger hunt</a>:</p>
 <ul>
 <li><span style="line-height: 21px;">Ted Moskalenko and Barlow Tucker each won a trip to <a href="http://www.bignerdranch.com/locations/monterey">Big Nerd Ranch West</a>, including a bootcamp of their choice, meals and accommodations.</span></li>
+<li><span style="line-height: 21px;">Barlow also won breakfast with Aaron Hillegass the day after our party.
+<p><a href="http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/breakfast-with-aaron/" rel="attachment wp-att-3067"><img class="aligncenter size-full wp-image-3067" title="breakfast-with-Aaron" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/breakfast-with-Aaron.jpg" alt="" width="400" height="300" /></a></span></li>
 <li><span style="line-height: 21px;">Del Brown won a free bootcamp at either our <a href="http://www.bignerdranch.com/locations/atlanta">Atlanta-area Ranch</a> or <a href="http://www.bignerdranch.com/locations/netherlands">Big Nerd Ranch Europe</a>.<br /> </span></li>
 <li><span style="line-height: 21px;">Warren Moore won 25% off any bootcamp, and Julie Johnston won 20% off.</span></li>
 <li><span style="line-height: 21px;">Veronica Haskell won a combo pack of our <a href="http://www.bignerdranch.com/books">programming guides</a>.</span></li>
 </ul>
 <p>Thank you to everyone who made it such a great success, and we look forward to seeing our friends, old and new, next year!</p>
 <p>The post <a href="http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/">WWDC Gypsy Caravan</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Empathy, thoughtfulness, and learning: Being an Intern at Big Nerd Ranch</title>
-		<link>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/</link>
-		<comments>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/#comments</comments>
-		<pubDate>Tue, 18 Jun 2013 22:39:55 +0000</pubDate>
-		<dc:creator>Joseph Murphy</dc:creator>
-				<category><![CDATA[Culture]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/3047-wwdc-gypsy-caravan/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>Empathy, thoughtfulness, and learning: Being an Intern at Big Nerd Ranch</title>
+            <link>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/</link>
+            <comments>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/#comments</comments>
+            <pubDate>Tue, 18 Jun 2013 22:39:55 +0000</pubDate>
+            <dc:creator>Joseph Murphy</dc:creator>
+            <category><![CDATA[Culture]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=3012</guid>
-		<description><![CDATA[<p><p dir="ltr">Six months ago, I decided to learn how to program in iOS. I have a relationship with my iPhone that psychologists would probably want to study, and I couldn&#8217;t handle the curiosity anymore—I wanted to know how it worked. A friend recommended the Big Nerd Ranch guides, but I was skeptical of the playful company name.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/">Empathy, thoughtfulness, and learning: Being an Intern at Big Nerd Ranch</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p dir="ltr">Six months ago, I decided to learn how to program in iOS. I have a relationship with my iPhone that psychologists would probably want to study, and I couldn&#8217;t handle the curiosity anymore—I wanted to know how it worked. A friend recommended the Big Nerd Ranch guides, but I was skeptical of the playful company name. After all, learning an entirely new language is rarely that fun in the beginning.</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=3012</guid>
+            <description><![CDATA[<p><p dir="ltr">Six months ago, I decided to learn how to program in iOS. I have a relationship with my iPhone that psychologists would probably want to study, and I couldn&#8217;t handle the curiosity anymore—I wanted to know how it worked. A friend recommended the Big Nerd Ranch guides, but I was skeptical of the playful company name.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/">Empathy, thoughtfulness, and learning: Being an Intern at Big Nerd Ranch</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+            <content:encoded><![CDATA[<p dir="ltr">Six months ago, I decided to learn how to program in iOS. I have a relationship with my iPhone that psychologists would probably want to study, and I couldn&#8217;t handle the curiosity anymore—I wanted to know how it worked. A friend recommended the Big Nerd Ranch guides, but I was skeptical of the playful company name. After all, learning an entirely new language is rarely that fun in the beginning.</p>
 <h3>Empathy and Thoughtfulness</h3>
 <p dir="ltr">In spite of my skepticism, I gave Big Nerd Ranch a shot, and in one week over the holiday break, I worked through Big Nerd Ranch’s <a href="http://bit.ly/16Tryuq">Objective-C Programming</a> and <a href="http://bit.ly/Yarl2W">iOS Programming</a> guides. It was immediately obvious that the authors cared deeply for the reader&#8217;s understanding of the content. This sense of empathy and thoughtfulness aided the learning process, and allowed me to start my first iOS application immediately.</p>
 <h3>Focus on learning</h3>
@@ -66,27 +103,27 @@
 <p dir="ltr">There are lots of nerdy <a href="http://bit.ly/10zgTQB">perks</a> at the Ranch: coffee, standing desks, breakfast, a ping-pong table, a massage therapist, <a href="http://bit.ly/159tVY2">Tech Talks</a>—but what has been most meaningful to me is the same thing I felt while reading the Big Nerd Ranch guides: an overwhelming sense that learning is what matters.</p>
 <p dir="ltr">In my opinion Big Nerd Ranch&#8217;s strength lies in this focus on learning. It is applied to their guides, classes, and app development process. This may be what they mean by <em>Nerdvana</em>, a sense that there should be few barriers between you and the knowledge you seek. Nerdvana, for me, is not knowing what Objective-C was six months ago, but now being able to read an expert’s code comments and understand them.</p>
 <p>The post <a href="http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/">Empathy, thoughtfulness, and learning: Being an Intern at Big Nerd Ranch</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>Cocoa Got Blocks</title>
-		<link>http://blog.bignerdranch.com/3001-cocoa-got-blocks/</link>
-		<comments>http://blog.bignerdranch.com/3001-cocoa-got-blocks/#comments</comments>
-		<pubDate>Fri, 14 Jun 2013 05:13:25 +0000</pubDate>
-		<dc:creator>Tasha Schroeder</dc:creator>
-				<category><![CDATA[Awesome Studliness]]></category>
-		<category><![CDATA[Cocoa]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/3012-empathy-thoughtfulness-and-learning-interning-at-big-nerd-ranch/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+        </item>
+        <item>
+            <title>Cocoa Got Blocks</title>
+            <link>http://blog.bignerdranch.com/3001-cocoa-got-blocks/</link>
+            <comments>http://blog.bignerdranch.com/3001-cocoa-got-blocks/#comments</comments>
+            <pubDate>Fri, 14 Jun 2013 05:13:25 +0000</pubDate>
+            <dc:creator>Tasha Schroeder</dc:creator>
+            <category><![CDATA[Awesome Studliness]]></category>
+            <category><![CDATA[Cocoa]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=3001</guid>
-		<description><![CDATA[<p><p><a href="http://bit.ly/18Emldn"></a></p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=3001</guid>
+            <description><![CDATA[<p><p><a href="http://bit.ly/18Emldn"></a></p>
 <p>Nerd extraordinaire <a href="http://www.bignerdranch.com/about_us/nerds/steve_sparks">Steve Sparks</a> wrote a new take on a classic that we know you&#8217;re going to love. Check it out on <a href="http://bit.ly/18Emldn">Vimeo</a> or on <a href="http://bit.ly/10h6dLg">YouTube</a>.</p>
 Cocoa Got Blocks
 
 
 
 <p style="text-align: center;">Oh. My. God. Becky&#8230;<br /> Look at this code. It is so big.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/3001-cocoa-got-blocks/">Cocoa Got Blocks</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://bit.ly/18Emldn"><img class="aligncenter size-full wp-image-3002" title="Cocoa-Got-Blocks" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/Cocoa-Got-Blocks.jpg" alt="" width="595" height="362" /></a></p>
+            <content:encoded><![CDATA[<p><a href="http://bit.ly/18Emldn"><img class="aligncenter size-full wp-image-3002" title="Cocoa-Got-Blocks" src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/Cocoa-Got-Blocks.jpg" alt="" width="595" height="362" /></a></p>
 <p>Nerd extraordinaire <a href="http://www.bignerdranch.com/about_us/nerds/steve_sparks">Steve Sparks</a> wrote a new take on a classic that we know you&#8217;re going to love. Check it out on <a href="http://bit.ly/18Emldn">Vimeo</a> or on <a href="http://bit.ly/10h6dLg">YouTube</a>.</p>
 <h3 style="text-align: center;">Cocoa Got Blocks</h3>
 <div title="Page 1">
@@ -111,21 +148,21 @@ Cocoa Got Blocks
 </div>
 </div>
 <p>The post <a href="http://blog.bignerdranch.com/3001-cocoa-got-blocks/">Cocoa Got Blocks</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/3001-cocoa-got-blocks/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
-		</item>
-		<item>
-		<title>Inside the Bracket, part 3 &#8211; Who Are you?</title>
-		<link>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/</link>
-		<comments>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/#comments</comments>
-		<pubDate>Thu, 13 Jun 2013 15:41:55 +0000</pubDate>
-		<dc:creator>Mark Dalrymple</dc:creator>
-				<category><![CDATA[Cocoa]]></category>
-		<category><![CDATA[iPhone]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/3001-cocoa-got-blocks/feed/</wfw:commentRss>
+            <slash:comments>9</slash:comments>
+        </item>
+        <item>
+            <title>Inside the Bracket, part 3 &#8211; Who Are you?</title>
+            <link>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/</link>
+            <comments>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/#comments</comments>
+            <pubDate>Thu, 13 Jun 2013 15:41:55 +0000</pubDate>
+            <dc:creator>Mark Dalrymple</dc:creator>
+            <category><![CDATA[Cocoa]]></category>
+            <category><![CDATA[iPhone]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2993</guid>
-		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/">Inside the Bracket, part 3 &#8211; Who Are you?</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2993</guid>
+            <description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/">Inside the Bracket, part 3 &#8211; Who Are you?</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+            <content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Last time</a> we took at look at some of the data you can ask an object and its class about, stuff like a the signature of a method, as well as an application using <code>NSInvocation</code>.  This time it&#8217;s a look at some of the methods you can use to interrogate an object.</p>
 <h3>Be True to your Self</h3>
 <p>One of the simplest object interrogation methods is <code>-self</code>.  You send it to an object, and you get that object back.  I love weird little methods like this.  Is there some kind of corner case that it addresses?  Maybe there&#8217;s some cool technique I&#8217;m missing. <strong>Why</strong> would you have a call like this?  Why go to the trouble of calling</p>
 <pre>thing2 = [thing1 self];
@@ -266,23 +303,23 @@ if ([thing isKindOfClass: [NSString class]]) {
 </pre>
 <p>Next time we&#8217;ll take a look at what causes that, and how you can leverage unrecognized selectors to your own advantage.</p>
 <p>The post <a href="http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/">Inside the Bracket, part 3 &#8211; Who Are you?</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>WWDC 2013: Focusing on the little things</title>
-		<link>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/</link>
-		<comments>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/#comments</comments>
-		<pubDate>Wed, 12 Jun 2013 18:22:56 +0000</pubDate>
-		<dc:creator>Paul Turner</dc:creator>
-				<category><![CDATA[Cocoa]]></category>
-		<category><![CDATA[Conferences]]></category>
-		<category><![CDATA[iPhone]]></category>
-		<category><![CDATA[Uncategorized]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/2993-inside-the-bracket-part-3-who-are-you/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>WWDC 2013: Focusing on the little things</title>
+            <link>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/</link>
+            <comments>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/#comments</comments>
+            <pubDate>Wed, 12 Jun 2013 18:22:56 +0000</pubDate>
+            <dc:creator>Paul Turner</dc:creator>
+            <category><![CDATA[Cocoa]]></category>
+            <category><![CDATA[Conferences]]></category>
+            <category><![CDATA[iPhone]]></category>
+            <category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2984</guid>
-		<description><![CDATA[<p><p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/">WWDC 2013: Focusing on the little things</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2984</guid>
+            <description><![CDATA[<p><p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/">WWDC 2013: Focusing on the little things</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
+            <content:encoded><![CDATA[<p>I was one of five lucky Nerds who got to attend Apple&#8217;s WWDC this year, and it has been a blast so far. The keynote was probably the most exciting in terms of the big-picture changes coming from Apple. Interestingly enough, the big picture means focusing on the little things.</p>
 <h3>The small details</h3>
 <p>iOS7 brings a whole new interface, one that pays attention to the small details that define the total experience. The new look is centered on the idea of simplicity and efficiency, bringing order to complexity, as Jony Ive said. What this has served to remind me of is the complexity involved in making an app feel and look easy to use.</p>
 <p>By now you&#8217;ve probably seen images of Apple&#8217;s re-design of several of the apps. Gone are the days of faux leather; instead we now have a systemwide flatter, more minimalistic look. As with any change, opinions on this shift will range from extremely negative to very positive, but one thing is for certain: it&#8217;s here to stay.</p>
@@ -294,23 +331,23 @@ if ([thing isKindOfClass: [NSString class]]) {
 <p>Instead, iOS7 warrants a deeper look at the app and its functionality. One of the things that Apple made clear was that they did not simply go about changing how things look. Instead, they focused on the experience and how things feel for the user. The word game <a href="https://developer.apple.com/wwdc/events/awards/#letterpress-word-game">Letterpress</a> was given a 2013 Apple Design award because it &#8220;stands out for its beautifully understated game interface, simple gestures, subtle animations and restrained sound design.&#8221; So you can see that it&#8217;s not just changes in appearance that are important.</p>
 <p>In all, I love Apple&#8217;s new change in design, and not entirely based on they way it looks. More importantly, I like the fact that the platform is evolving and changing, instead of clinging to what has worked in the past. Apple is forcing developers to look at their apps once again, and to think about how they can improve their experience. Developers will look at what Apple has done and &#8220;steal&#8221; certain features, but also will improve upon others, helping sustain the rich environment of apps that the iOS platform is known for.</p>
 <p>The post <a href="http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/">WWDC 2013: Focusing on the little things</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>WWDC 2013 keynote: a love letter to users</title>
-		<link>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/</link>
-		<comments>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/#comments</comments>
-		<pubDate>Wed, 12 Jun 2013 00:17:15 +0000</pubDate>
-		<dc:creator>Step Christopher</dc:creator>
-				<category><![CDATA[Community]]></category>
-		<category><![CDATA[Conferences]]></category>
-		<category><![CDATA[iPhone]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/2984-wwdc-2013-focusing-on-the-little-things/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+        </item>
+        <item>
+            <title>WWDC 2013 keynote: a love letter to users</title>
+            <link>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/</link>
+            <comments>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/#comments</comments>
+            <pubDate>Wed, 12 Jun 2013 00:17:15 +0000</pubDate>
+            <dc:creator>Step Christopher</dc:creator>
+            <category><![CDATA[Community]]></category>
+            <category><![CDATA[Conferences]]></category>
+            <category><![CDATA[iPhone]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2966</guid>
-		<description><![CDATA[<p><p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2966</guid>
+            <description><![CDATA[<p><p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
 <p>As a developer, I’m working toward the same goal that Apple is: to delight people and improve their lives.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/">WWDC 2013 keynote: a love letter to users</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
+            <content:encoded><![CDATA[<p>Depending upon your perspective as a developer, you may have been disappointed by the relative lack of developer-focused information in the <a href="http://www.apple.com/apple-events/june-2013/">WWDC 2013 keynote</a>. I was not.</p>
 <p>As a developer, I’m working toward the same goal that Apple is: to delight people and improve their lives. So seeing Apple serve our shared audience so well means good things for the near-term future of iOS development. Yesterday&#8217;s keynote was a love letter to those users.</p>
 <p>Apple made it clear that the Mac platform is alive and well. If you wondered what the next step was in the iOS-ification of OS X, Apple gave the same answer as always: Mac stands on its own merits. Apple has continued to improve the integration between their platforms, but not by pursuing some generic, hand-wavy goal of making them more similar. Each OS will continue to be fully tailored for the devices it is on, each detail intentional to that context. Apple has added even more shared APIs, as well as implemented pieces across lots of shared concepts (notifications, Messages, Maps, AirDrop, etc.). But they’re not sharing the UI or UX wholesale. Each detail of integration is hand-crafted for the platform it lives on.</p>
 <h3>Improved experiences</h3>
@@ -320,26 +357,26 @@ if ([thing isKindOfClass: [NSString class]]) {
 <p>The biggest takeaway I got from the WWDC keynote is that you should understand your users’ problem. Not their proposed solution, but the underlying problem. Then you should solve that problem, paying close attention to context and to the details. Don’t be distracted by any other solution you’ve seen before.</p>
 <p>Instead, you should strive to design the perfectly fit solution, custom-tailored to the problem. Clear away everything else, and you’ll have something beautiful and powerful. All those things you cleared away? They can come back after you get the first, focused release out there. Iterate. Release. Listen to your customers. And repeat.</p>
 <p>The post <a href="http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/">WWDC 2013 keynote: a love letter to users</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Inside the Bracket, part 2 &#8211; data invocation</title>
-		<link>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/</link>
-		<comments>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/#comments</comments>
-		<pubDate>Thu, 06 Jun 2013 15:31:53 +0000</pubDate>
-		<dc:creator>Mark Dalrymple</dc:creator>
-				<category><![CDATA[C Stuff]]></category>
-		<category><![CDATA[Cocoa]]></category>
-		<category><![CDATA[iPhone]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/2966-wwdc-2013-keynote-a-love-letter-to-users/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>Inside the Bracket, part 2 &#8211; data invocation</title>
+            <link>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/</link>
+            <comments>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/#comments</comments>
+            <pubDate>Thu, 06 Jun 2013 15:31:53 +0000</pubDate>
+            <dc:creator>Mark Dalrymple</dc:creator>
+            <category><![CDATA[C Stuff]]></category>
+            <category><![CDATA[Cocoa]]></category>
+            <category><![CDATA[iPhone]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2950</guid>
-		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2950</guid>
+            <description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
 <pre>for (NSView *view in visibleviews) {
     [view drawRect: view.bounds];
 }</pre>
 <p>Objective-C performs this magic by having a collection associated with each object.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Inside the Bracket, part 2 &#8211; data invocation</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
+            <content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2833-inside-the-bracket-part-1-open-for-business/">Last time</a> we took a look at the motivations behind Objective-C message sending.  It&#8217;s a layer of indirection that lets one chunk of code treat other, perhaps unrelated, chunks of code in a uniform manner.  &#8220;I have a pile of views here, I shall draw them all with <code>-drawRect:</code>, and I don&#8217;t care if the views are Buttons, Sliders, or <a href="http://blog.bignerdranch.com/469-protocols-part-2-delegation/">World Maps</a>.&#8221;  There&#8217;s a loop that hits a collection and sends the same message to a bunch of objects:</p>
 <pre>for (NSView *view in visibleviews) {
     [view drawRect: view.bounds];
 }</pre>
@@ -463,7 +500,7 @@ NSRange lastSpace =
 <p>This also returns {16,1], so life is good.  You can re-use the invocation and point it at different strings by using setTarget:</p>
 <pre>//                                   1111111111
 //                         01234567890123456789
-NSString *secondString = @"<a href="http://www.amazon.com/Seem-Be-Verb-Environment-Future/dp/B0006CZBHO">I seem to be a verb!</a>"; 
+NSString *secondString = @"<a href="http://www.amazon.com/Seem-Be-Verb-Environment-Future/dp/B0006CZBHO">I seem to be a verb!</a>";
 //                              |-------------|
 [spaceFinder setTarget: secondString];
 [spaceFinder invoke];
@@ -477,23 +514,23 @@ NSRange yetAnotherLastSpace;
 <h3>Data Today, Methods Tomorrow</h3>
 <p>Here ends the tour of some of the bits of information you can get at run-time given Objective-C's rich metadata.  Next time, a tour of some of the methods you can use to put this metadata to good use.</p>
 <p>The post <a href="http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/">Inside the Bracket, part 2 &#8211; data invocation</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>On the Road: Mobile Design in Amsterdam</title>
-		<link>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/</link>
-		<comments>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/#comments</comments>
-		<pubDate>Wed, 05 Jun 2013 20:15:50 +0000</pubDate>
-		<dc:creator>Brandy Porter</dc:creator>
-				<category><![CDATA[Design]]></category>
-		<category><![CDATA[On the Road]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/2950-inside-the-bracket-part-2-data-invocation/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+        </item>
+        <item>
+            <title>On the Road: Mobile Design in Amsterdam</title>
+            <link>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/</link>
+            <comments>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/#comments</comments>
+            <pubDate>Wed, 05 Jun 2013 20:15:50 +0000</pubDate>
+            <dc:creator>Brandy Porter</dc:creator>
+            <category><![CDATA[Design]]></category>
+            <category><![CDATA[On the Road]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2927</guid>
-		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"></a></p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2927</guid>
+            <description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"></a></p>
 <p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
 <p>Today I’m writing to you from a plane somewhere over Romania.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/">On the Road: Mobile Design in Amsterdam</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/TravelBlogHeader_Amsterdam.jpg" alt="" title="TravelBlogHeader_Amsterdam" width="595" height="226" class="aligncenter size-full wp-image-2933" /></a></p>
+            <content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/travelblogheader_amsterdam/" rel="attachment wp-att-2933"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/TravelBlogHeader_Amsterdam.jpg" alt="" title="TravelBlogHeader_Amsterdam" width="595" height="226" class="aligncenter size-full wp-image-2933" /></a></p>
 <p><em>Editor&#8217;s note: <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian Harper</a>, <a href="http://www.bignerdranch.com/about_us/nerds/jeff_heaton">Jeff Heaton</a> and <a href="http://www.bignerdranch.com/about_us/nerds/brandy_porter">Brandy Porter</a> are hitting the road to teach our <a href="http://www.bignerdranch.com/classes">mobile design courses</a> in Ukraine, the Netherlands, India and Japan. At each destination, they&#8217;ll be sending blog &#8220;postcards&#8221; with updates.</em></p>
 <p>Today I’m writing to you from a plane somewhere over Romania. <a href="http://www.bignerdranch.com/about_us/nerds/brian_harper">Brian</a> and I are headed to India for our next Microsoft design bootcamps. We just spent a week in Amsterdam, where we were able to work with the <a href="http://www.bignerdranch.com/locations/netherlands">Big Nerd Ranch Europe</a> team and deliver a three-day class covering iOS, Android and Windows 8 design principles.</p>
 <p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/bnramsterdam/" rel="attachment wp-att-2929"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/BNRAmsterdam.jpg" alt="" title="BNRAmsterdam" width="590" height="359" class="aligncenter size-full wp-image-2929" /></a></p>
@@ -507,23 +544,23 @@ NSRange yetAnotherLastSpace;
 <p><a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/canaltour/" rel="attachment wp-att-2931"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/06/CanalTour.jpg" alt="" title="CanalTour" width="590" height="315" class="aligncenter size-full wp-image-2931" /></a></p>
 <p>We saw these wonderful people a few more times over the rest of the week, and had riveting conversations in rockabilly bars, museums and even on bike rides. It really drove home this point for me: the most amazing part of Amsterdam is her people.</p>
 <p>The post <a href="http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/">On the Road: Mobile Design in Amsterdam</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/feed/</wfw:commentRss>
-		<slash:comments>4</slash:comments>
-		</item>
-		<item>
-		<title>A recipe for creating iOS games</title>
-		<link>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/</link>
-		<comments>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/#comments</comments>
-		<pubDate>Tue, 04 Jun 2013 16:16:22 +0000</pubDate>
-		<dc:creator>John Shea</dc:creator>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[iPhone]]></category>
-		<category><![CDATA[Tech Talks]]></category>
+            <wfw:commentRss>http://blog.bignerdranch.com/2927-on-the-road-mobile-design-in-amsterdam/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+        </item>
+        <item>
+            <title>A recipe for creating iOS games</title>
+            <link>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/</link>
+            <comments>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/#comments</comments>
+            <pubDate>Tue, 04 Jun 2013 16:16:22 +0000</pubDate>
+            <dc:creator>John Shea</dc:creator>
+            <category><![CDATA[Gaming]]></category>
+            <category><![CDATA[iPhone]]></category>
+            <category><![CDATA[Tech Talks]]></category>
 
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2878</guid>
-		<description><![CDATA[<p><p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
+            <guid isPermaLink="false">http://blog.bignerdranch.com/?p=2878</guid>
+            <description><![CDATA[<p><p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
 <p><em>Alumni: If you’d like to share your success stories with us, please leave a note in the comments.</em>&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/">A recipe for creating iOS games</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
+            <content:encoded><![CDATA[<p><em>Editor’s note: <a href="http://www.jmsapps.com/">John Shea</a> is a two-time Big Nerd Ranch alum and is the creator of <a href="http://kondrian.com/">Kondrian</a>, an action game for iPhone and iPad.</em></p>
 <p><em>Alumni: If you’d like to share your success stories with us, please leave a note in the comments.</em></p>
 <p>In <a href="http://bit.ly/11f9JBj">my last post</a>, I wrote about the process that lead me to create my first game, Kondrian. During that process, I learned a lot about creating iOS games. In fact, I’d almost call it a recipe. Here are the key steps:</p>
 <ul>
@@ -561,31 +598,8 @@ NSRange yetAnotherLastSpace;
 </ul>
 <p>Making a game is a huge investment in time, energy and resources, much like many other non-game development projects. The rewards are huge, though. You&#8217;ll add to your development skillset and create something new. And you never know—it might help you achieve Nerdvana!</p>
 <p>The post <a href="http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/">A recipe for creating iOS games</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>June 29th Coderetreat open for registration</title>
-		<link>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/</link>
-		<comments>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/#comments</comments>
-		<pubDate>Thu, 30 May 2013 17:48:40 +0000</pubDate>
-		<dc:creator>Stafford Brooke</dc:creator>
-				<category><![CDATA[Atlanta]]></category>
-		<category><![CDATA[Code]]></category>
-		<category><![CDATA[Craftsmanship]]></category>
-
-		<guid isPermaLink="false">http://blog.bignerdranch.com/?p=2882</guid>
-		<description><![CDATA[<p><p><a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/code-retreat-2/" rel="attachment wp-att-2895"></a></p>
-<p>I&#8217;m excited to announce that we are teaming up with <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a> to hold a <a href="http://coderetreat.org/">Coderetreat</a> on June 29th at our Krog Street office in Atlanta.</p>
-<p>A Coderetreat is a daylong event where a small group of developers meet up to focus on improving their software design and development skills.&#8230;</p></p><p>The post <a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/">June 29th Coderetreat open for registration</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/code-retreat-2/" rel="attachment wp-att-2895"><img src="http://blog.bignerdranch.com/wp-content/uploads/2013/05/code-retreat1.jpg" alt="" title="code-retreat" width="590" height="101" class="aligncenter size-full wp-image-2895" /></a></p>
-<p>I&#8217;m excited to announce that we are teaming up with <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a> to hold a <a href="http://coderetreat.org/">Coderetreat</a> on June 29th at our Krog Street office in Atlanta.</p>
-<p>A Coderetreat is a daylong event where a small group of developers meet up to focus on improving their software design and development skills. It is an intense day of coding where we get to pair program with others, learn new problem-solving techniques and focus 100% on doing it right.</p>
-<p>The event is free and is open to all software developers who are interested improving their software design and development skills. Participants will pair with each other during six sessions that will each focus on different aspects of crafting outstanding code.</p>
-<p>If you are interested in attending, you can register <a href="http://www.eventbrite.com/event/6892998143">here</a>. There is a $10 deposit required to reserve your spot, which will be refunded when you sign in at the event. The event starts at 9:30 a.m. and will finish up around 6 p.m. Lunch and other refreshments will be provided, thanks to our co-sponsors, <a href="http://mailchimp.com">Mailchimp</a> and <a href="http://mandrill.com">Mandrill</a>.</p>
-<p>The post <a href="http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/">June 29th Coderetreat open for registration</a> appeared first on <a href="http://blog.bignerdranch.com">Big Nerd Ranch Blog</a>.</p>]]></content:encoded>
-			<wfw:commentRss>http://blog.bignerdranch.com/2882-june-29th-coderetreat-open-for-registration/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>http://blog.bignerdranch.com/2878-a-recipe-for-creating-ios-games/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+        </item>
+    </channel>
 </rss>

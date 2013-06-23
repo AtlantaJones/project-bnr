@@ -29,6 +29,7 @@ $(document).ready(function() {
     // Things to do on window resize
     $(window).resize(function() {
         slideHeight();
+        homeColumnSetup(); // has to be called on resize to keep columns from getting cut off or wonky
     });
 
 

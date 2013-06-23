@@ -99,10 +99,16 @@ body {
 
 #fullContainer {
   //min-height:1000px;
+  //overflow:auto;
+}
+
+span.hide-for-small {
+  @media #{$medium} {
+    display:inline !important;
+  }
 }
 
 #logo {
-  //background:transparent url(../images/logo-bnr.png) no-repeat left top;
   float: left;
   height:68px;
   margin:15px 0 0 10px;
@@ -248,6 +254,16 @@ header nav {
 #slideShowBanner {
   left:14px;
   top:0;
+  width:85px;
+  @include vendorize(transition, width 150ms linear);
+
+  @media #{$medium} {
+    width:110px;
+  }
+
+  @media #{$large} {
+    width:138px;
+  }
 }
 
 #homeTopRightInfo {
@@ -264,7 +280,7 @@ header nav {
 .topRightInfoTxt h3,
 .topRightInfoTxt a {
 
-  @media screen and (min-width: '768px') and (max-width: '920px') {
+  @media screen and (min-width: '768px') and (max-width: '1024px') {
     font-size:16px;
   }
 
@@ -273,7 +289,7 @@ header nav {
 .topRightInfoTxt p {
   padding:2px 35px;
 
-  @media screen and (min-width: '768px') and (max-width: '920px') {
+  @media screen and (min-width: '768px') and (max-width: '1024px') {
     font-size:11px;
   }
 
@@ -290,7 +306,7 @@ header nav {
   width:100%;
 
   @media screen and (min-width: '768px') and (max-width: '885px') {
-    padding-top:25px;
+    padding-top:29px;
   }
 }
 
@@ -348,10 +364,16 @@ header nav {
   }
 }
 
+#yellowBox hr {
+  @media #{$tablet} {
+    margin:5px 0;
+  }
+}
+
 
 #midSection {
   min-height: inherit;
-  padding-bottom: 36px;
+  padding-bottom: 12px;
   padding-top:25px;
 }
 
@@ -360,12 +382,33 @@ header nav {
   width:100% !important;
 }
 
+.home_col {
+  padding-bottom:77px !important;
+
+    @media #{$large} {
+      padding-bottom:25px !important;
+    }
+}
+
 #home_twitter_box {
   width:100%;
 }
 
+.home_twitter_after {
+  top: inherit;
+  bottom: -26px;
+  left:inherit;
+  right:-12%;
+  height:103px;
+
+    @media #{$large} {
+      bottom:-78px;
+    }
+}
+
 span.sectionFooterBanner {
   left:0 !important;
+  bottom:20px;
   width:100%;
 }
 
@@ -387,6 +430,14 @@ span.sectionFooterBanner {
   background:url(../old/images/home_logo_car_bg.png) repeat-x center top;
 }
 
+.carousel .item img {
+  height:auto;
+  width:100%;
+  @media #{$large} {
+    height:308px;
+  }
+}
+
 #client_carousel {
   position:static;
 }
@@ -399,7 +450,7 @@ footer {
   background:url(../images/bkg-footer.jpg) repeat-x center top;
   min-height:325px;
   height:inherit;
-  padding:0;
+  padding:0 0 110px 0;
   position:relative;
 }
 
@@ -429,7 +480,7 @@ footer #col_1 {
   height:54px;
 
   nav {
-    margin-top:9px;
+    //margin-top:9px;
   }
 }
 
@@ -447,7 +498,19 @@ footer > section.row {
 }
 
 footer nav ul {
-  padding:7px 0 0 0;
+  padding:5px;
+
+  @media #{$small} {
+    padding:15px 0 0 0;
+  }
+}
+
+footer nav ul li a {
+  @include remFont(15);
+
+  @media #{$small} {
+    @include remFont(13);
+  }
 }
 
 .class_listing {
@@ -469,14 +532,21 @@ footer nav ul {
 }
 
 div.studentLoginBtn {
-  bottom: inherit;
+  width: 147px;
+  margin:12px auto 0 auto;
+  position:static;
 
   @media #{$medium} {
-
+    position:absolute;
+    bottom: inherit;
+    left:inherit;
+    margin:0;
+    right:30px;
+    top: 11px;
   }
 
   @media #{$large} {
-    top: 10px;
+
   }
 
 
@@ -496,22 +566,22 @@ div.studentLoginBtn {
 }
 
 .stay-connected {
-  width:165px;
+  padding:0;
 
   @media #{$medium} {
-    width:190px;
+    min-width: 351px;
   }
 
   @media #{$large} {
-    width:220px;
+    //width:203px;
   }
 }
 
-.stay-connected > div > a {
-  //display:none;
-  //@media #{$medium} {
-  //  display:block;
-  //}
+.ranch-report {
+  display:none;
+  @media #{$medium} {
+    display:block;
+  }
 }
 
 #mc_embed_signup {
@@ -536,13 +606,16 @@ div.studentLoginBtn {
 }
 
 
+.social-nerds {
+
+}
 
 .nerd-awards {
   position:static;
-  width:150px;
+  //width:150px;
 
   @media #{$medium} {
-    width:195px;
+   min-width:175px;
   }
 
   img {

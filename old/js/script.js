@@ -113,38 +113,47 @@ var clientLogosCarousel = function () {
     }
 };
 var homeColumnSetup = function () {
-    // cycle all home_col for max height
-    var colHeight = 0;
-    $(".home_col").each(function () {
-        var that = $(this);
-        // console.log(that.height());
-        if(colHeight <= that.height()){
-            colHeight = that.height();
-        }
-    });
-    colHeight += 64;
-    $("#home_recent_blog_posts").height(colHeight);
-    $("#home_recent_blog_posts .sectionFooterBanner").width($("#home_recent_blog_posts").width() - 34);
-    $("#home_recent_blog_posts .sectionFooterBanner").css({"left" : "17px"});
-    $("#home_upcoming_classes").height(colHeight);
-    $("#home_upcoming_classes .sectionFooterBanner").width($("#home_upcoming_classes").width() - 20);
-    $("#home_upcoming_classes .sectionFooterBanner").css({"left" : "40px"});
-    $("#home_twitter_box").height(colHeight-62);
-    $(".home_twitter_after").css({
-       "top": (colHeight-49) +"px"
-    });
-    $("#home_mid_title").css({
-          "top": ($("#midSection").height() + 366) +"px"
-       });
-    $("#client_carousel").css({
-             "top": ($("#midSection").height() + 366 + 102) +"px"
-          });
-    $(".home_twitter_after").show();
-    // then cycle through individual columns and set height and banners
-    var tempHeight = $("#main").height();
-    if($("#home_mid_title").offset()){
-        $("#main").height( tempHeight + $("#home_mid_title").offset().top);
+
+    // AJ Edit: Do not perform this adjustment on mobile
+    if(Modernizr.mq('screen and (min-width:768px)')) {
+
+        // cycle all home_col for max height
+        var colHeight = 0;
+        $(".home_col div + div").each(function () {
+            var that = $(this);
+            // console.log(that.height());
+            if(colHeight <= that.height()){
+                colHeight = that.height();
+            }
+        });
+        colHeight += 85;
+        $("#home_recent_blog_posts").height(colHeight);
+        $("#home_upcoming_classes").height(colHeight);
+        $("#home_twitter_box").height(colHeight-62);
+        //$("#home_recent_blog_posts .sectionFooterBanner").width($("#home_recent_blog_posts").width() - 34);
+        //$("#home_recent_blog_posts .sectionFooterBanner").css({"left" : "17px"});
+        //$("#home_upcoming_classes .sectionFooterBanner").width($("#home_upcoming_classes").width() - 20);
+        //$("#home_upcoming_classes .sectionFooterBanner").css({"left" : "40px"});
+
+//        $(".home_twitter_after").css({
+//           "top": (colHeight-49) +"px"
+//        });
+//        $("#home_mid_title").css({
+//              "top": ($("#midSection").height() + 366) +"px"
+//           });
+//        $("#client_carousel").css({
+//                 "top": ($("#midSection").height() + 366 + 102) +"px"
+//              });
+//        $(".home_twitter_after").show();
+        // then cycle through individual columns and set height and banners
+//        var tempHeight = $("#main").height();
+//        if($("#home_mid_title").offset()){
+//            $("#main").height( tempHeight + $("#home_mid_title").offset().top);
+//        }
+    } else {
+        $(".home_col, #home_twitter_box").css('height','auto');
     }
+   $(".home_twitter_after").show();
 
 };
 
