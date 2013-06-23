@@ -289,12 +289,21 @@ header nav {
 .topRightInfoTxt p {
   padding:2px 35px;
 
-  @media screen and (min-width: '768px') and (max-width: '1024px') {
+  @media screen and (min-width: '768px') and (max-width: '993px') {
+    padding:0 7px;
+  }
+
+  @media screen and (min-width: '768px') and (max-width: '910px') {
     font-size:11px;
   }
 
+
   @media #{$medium} {
-    padding:2px 15px;
+    //padding:2px 15px;
+  }
+
+  @media #{$tablet} {
+    //padding:0 7px;
   }
 }
 
@@ -305,15 +314,22 @@ header nav {
   position:relative;
   width:100%;
 
-  @media screen and (min-width: '768px') and (max-width: '885px') {
-    padding-top:29px;
+  @media screen and (min-width: '768px') and (max-width: '1024px') {
+    padding-top: 59px;
+  }
+
+  @media screen and (min-width: '768px') and (max-width: '894px') {
+    padding-top:31px;
+  }
+
+  @media #{$large} {
+    padding-bottom:18px;
   }
 }
 
 #yellowBox .activeInfo {
   background-image:url(../images/home_top_right_active_banner-480.png);
   top:10px;
-  @include vendorize(transition, #{top 150ms linear, right 150ms linear});
   z-index:100;
 
   width: 109%;
@@ -323,14 +339,13 @@ header nav {
   left: -3.1%;
   padding-top: 0px;
 
-    @media screen and (min-width: '768px') and (max-width: '885px') {
-      height:60px;
-      padding-left:17px;
-      width: 124%;
-      left:inherit;
-      right: -21px;
-      top:-9px;
-      background-size: 100% 100%;
+    @media screen and (min-width: '768px') and (max-width: '1024px') {
+      top: 10px;
+      left: inherit;
+      right: -18px;
+      width: 117%;
+      height: 88px;
+      background-size: 100% 62px;
 
       & h1, & h2 {
         font-size:1.2em;
@@ -340,18 +355,18 @@ header nav {
       .thinHeaderTxt {
         padding-top:0;
       }
-
     }
 
-  @media screen and (min-width: '885px') {
+    @media screen and (min-width: '767px') and (max-width: '894px') {
+      top:-10px;
+    }
+
+    @media #{$large} {
       background-image:url(../old/images/home_top_right_active_banner.png);
-      position: absolute;
-      top: 10px;
-      right: -25px;
+      width: 355px;
       left: inherit;
-      width: 334px;
-      height: 88px;
-    }
+      right: -26px;
+      }
 }
 
 #yellowBoxHat {
@@ -362,11 +377,19 @@ header nav {
     bottom: -30px;
     right: -60px;
   }
+
+  @media #{$tablet} {
+    bottom: -50px;
+  }
 }
 
 #yellowBox hr {
   @media #{$tablet} {
-    margin:5px 0;
+    margin:7px auto;
+  }
+
+  @media screen and (min-width: '768px') and (max-width: '894px') {
+    margin:5px auto;
   }
 }
 

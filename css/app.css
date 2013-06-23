@@ -4485,14 +4485,14 @@ header nav {
 .topRightInfoTxt p {
   padding: 2px 35px;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 993px) {
   .topRightInfoTxt p {
-    font-size: 11px;
+    padding: 0 7px;
   }
 }
-@media only screen and (min-width: 48em) {
+@media screen and (min-width: 768px) and (max-width: 910px) {
   .topRightInfoTxt p {
-    padding: 2px 15px;
+    font-size: 11px;
   }
 }
 
@@ -4503,20 +4503,25 @@ header nav {
   position: relative;
   width: 100%;
 }
-@media screen and (min-width: 768px) and (max-width: 885px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #homeTopRightInfo #yellowBox {
-    padding-top: 29px;
+    padding-top: 59px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 894px) {
+  #homeTopRightInfo #yellowBox {
+    padding-top: 31px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #homeTopRightInfo #yellowBox {
+    padding-bottom: 18px;
   }
 }
 
 #yellowBox .activeInfo {
   background-image: url(../images/home_top_right_active_banner-480.png);
   top: 10px;
-  -webkit-transition: top 150ms linear, right 150ms linear;
-  -moz-transition: top 150ms linear, right 150ms linear;
-  -ms-transition: top 150ms linear, right 150ms linear;
-  -o-transition: top 150ms linear, right 150ms linear;
-  transition: top 150ms linear, right 150ms linear;
   z-index: 100;
   width: 109%;
   height: 82px;
@@ -4525,15 +4530,14 @@ header nav {
   left: -3.1%;
   padding-top: 0px;
 }
-@media screen and (min-width: 768px) and (max-width: 885px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #yellowBox .activeInfo {
-    height: 60px;
-    padding-left: 17px;
-    width: 124%;
+    top: 10px;
     left: inherit;
-    right: -21px;
-    top: -9px;
-    background-size: 100% 100%;
+    right: -18px;
+    width: 117%;
+    height: 88px;
+    background-size: 100% 62px;
   }
   #yellowBox .activeInfo h1, #yellowBox .activeInfo h2 {
     font-size: 1.2em;
@@ -4543,15 +4547,17 @@ header nav {
     padding-top: 0;
   }
 }
-@media screen and (min-width: 885px) {
+@media screen and (min-width: 767px) and (max-width: 894px) {
+  #yellowBox .activeInfo {
+    top: -10px;
+  }
+}
+@media only screen and (min-width: 64em) {
   #yellowBox .activeInfo {
     background-image: url(../old/images/home_top_right_active_banner.png);
-    position: absolute;
-    top: 10px;
-    right: -25px;
+    width: 355px;
     left: inherit;
-    width: 334px;
-    height: 88px;
+    right: -26px;
   }
 }
 
@@ -4565,10 +4571,20 @@ header nav {
     right: -60px;
   }
 }
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+  #yellowBoxHat {
+    bottom: -50px;
+  }
+}
 
 @media only screen and (min-width: 48em) and (max-width: 64em) {
   #yellowBox hr {
-    margin: 5px 0;
+    margin: 7px auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 894px) {
+  #yellowBox hr {
+    margin: 5px auto;
   }
 }
 
