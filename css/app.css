@@ -4618,6 +4618,22 @@ header nav {
   }
 }
 
+span.sectionFooterBanner {
+  left: 0 !important;
+  bottom: 20px;
+  width: 100%;
+}
+
+#home_mid_title {
+  position: static;
+  height: 56px;
+}
+
+#home_mid_title h4 {
+  padding: 18px 0 0 0;
+  width: 100%;
+}
+
 #home_twitter_box {
   width: 100%;
 }
@@ -4635,24 +4651,12 @@ header nav {
   }
 }
 
-span.sectionFooterBanner {
-  left: 0 !important;
-  bottom: 20px;
-  width: 100%;
-}
-
 .class_item {
   height: auto;
 }
 
-#home_mid_title {
-  position: static;
-  height: 56px;
-}
-
-#home_mid_title h4 {
-  padding: 18px 0 0 0;
-  width: 100%;
+.class_listing {
+  padding: 0;
 }
 
 .carousel-wrap {
@@ -4672,11 +4676,9 @@ span.sectionFooterBanner {
 #client_carousel {
   position: static;
 }
-
 #client_carousel .slider {
   width: 100%;
 }
-
 #client_carousel .slider ul {
   width: 100%;
 }
@@ -4689,16 +4691,21 @@ span.sectionFooterBanner {
   width: 100%;
 }
 
+.banner-nerdvana {
+  background: url(../images/banner-nerdvana.png) no-repeat center center;
+  left: 0;
+  position: absolute;
+  height: 58px;
+  top: -29px;
+  width: 100%;
+}
+
 footer {
   background: url(../images/bkg-footer.jpg) repeat-x center top;
   min-height: 325px;
   height: inherit;
   padding: 0 0 110px 0;
   position: relative;
-}
-
-footer #legal_info {
-  position: static;
 }
 
 footer .footerCol {
@@ -4713,16 +4720,6 @@ footer #col_1 {
   width: 100%;
 }
 
-.footer-nav-wrap {
-  background: url(../images/bkg-footer-nav.jpg) repeat-x center top;
-  clear: both;
-  height: 54px;
-}
-
-.footer-nav-wrap > .row {
-  position: relative;
-}
-
 footer > section.row {
   padding-top: 40px;
   min-height: 220px;
@@ -4731,6 +4728,16 @@ footer > section.row {
   footer > section.row {
     background: url(../images/nerdvana-text.png) no-repeat center 0;
   }
+}
+
+.footer-nav-wrap {
+  background: url(../images/bkg-footer-nav.jpg) repeat-x center top;
+  clear: both;
+  height: 54px;
+}
+
+.footer-nav-wrap > .row {
+  position: relative;
 }
 
 footer nav ul {
@@ -4753,8 +4760,8 @@ footer nav ul li a {
   }
 }
 
-.class_listing {
-  padding: 0;
+footer #legal_info {
+  position: static;
 }
 
 .legalText {
@@ -4787,15 +4794,6 @@ div.studentLoginBtn {
 
 .mc-field-group.base input {
   width: 184px !important;
-}
-
-.banner-nerdvana {
-  background: url(../images/banner-nerdvana.png) no-repeat center center;
-  left: 0;
-  position: absolute;
-  height: 58px;
-  top: -29px;
-  width: 100%;
 }
 
 .stay-connected {

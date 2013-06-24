@@ -11,19 +11,21 @@ function slideHeight() {
     }
 }
 
+// recalculate on orientation change
 window.onorientationchange = function() {
     slideHeight();
 };
+
 
 $(document).ready(function() {
 
     slideHeight();
 
+    // slide-down navigation on mobile
     $('.link-sammich').click(function() {
         $('.nav-drawer').toggleClass('open closed');
         return false;
     });
-
 
 
     // Things to do on window resize
@@ -31,6 +33,5 @@ $(document).ready(function() {
         slideHeight();
         homeColumnSetup(); // has to be called on resize to keep columns from getting cut off or wonky
     });
-
 
 });

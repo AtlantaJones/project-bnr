@@ -106,11 +106,6 @@ body {
   padding-top:9px;
 }
 
-#fullContainer {
-  //min-height:1000px;
-  //overflow:auto;
-}
-
 span.hide-for-small {
   @media #{$medium} {
     display:inline !important;
@@ -124,15 +119,10 @@ span.hide-for-small {
   @include vendorize(transition, #{width 150ms linear, margin 150ms linear});
   width:179px;
 
-  @media #{$medium} {
-
-  }
-
-  @media screen and (max-width: "866px") {
-    margin-top:18px;
-    width:150px;
-  }
-
+    @media screen and (max-width: "866px") {
+      margin-top:18px;
+      width:150px;
+    }
 }
 
 header {
@@ -148,14 +138,14 @@ header nav {
   padding-top:33px;
   padding-left:58px;
 
-  @media #{$medium} {
-    display:block;
-  }
+    @media #{$medium} {
+      display:block;
+    }
 
-  @media screen and (max-width: "866px") {
-    float:right;
-    padding-left:0;
-  }
+    @media screen and (max-width: "866px") {
+      float:right;
+      padding-left:0;
+    }
 }
 
 .home-link {
@@ -172,9 +162,9 @@ header nav {
   padding: 10px;
   width:33px;
 
-  @media #{$medium} {
-    display:none;
-  }
+    @media #{$medium} {
+      display:none;
+    }
 }
 
 .nav-drawer {
@@ -192,15 +182,14 @@ header nav {
     top:-62px;
   }
 
-  @media #{$medium} {
-    top:-89px !important;
-  }
+    @media #{$medium} {
+      top:-89px !important;
+    }
 
-  @media screen and (min-width: "990px") {
-    display:none;
-  }
+    @media screen and (min-width: "990px") {
+      display:none;
+    }
 }
-
 
 .nav-drawer ul {
   margin:0;
@@ -225,7 +214,6 @@ header nav {
   &:focus {
     border-bottom:1px solid $yellow;
   }
-
 }
 
 .nav-drawer ul:first-child a {
@@ -234,27 +222,27 @@ header nav {
 
 
 
+
+// Feature Section ---------------------------------------------------- //
+
 .feature-wrap {
   background:url(../images/bkg-feature.jpg) no-repeat center top;
-  //background:url(../old/images/home-slideshow-bg-repeat.png) repeat-x center top;
-
-
 }
 
 .feature {
   margin-bottom:25px;
   padding-top:20px;
- // min-height:376px;
 }
 
 .feature div:first-child {
   padding-right:0;
 }
 
+
+// Main photo slideshow
 #homeSlideShow {
   height:auto;
   max-width:inherit;
-  //margin-left:10px;
   position:relative;
   top:0;
   width:100%;
@@ -267,15 +255,17 @@ header nav {
   width:85px;
   @include vendorize(transition, width 150ms linear);
 
-  @media #{$medium} {
-    width:110px;
-  }
+    @media #{$medium} {
+      width:110px;
+    }
 
-  @media #{$large} {
-    width:138px;
-  }
+    @media #{$large} {
+      width:138px;
+    }
 }
 
+
+// Top right block (Welcome to Big Nerd Ranch)
 #homeTopRightInfo {
   height:auto;
   margin-left:0;
@@ -293,28 +283,18 @@ header nav {
   @media screen and (min-width: '768px') and (max-width: '1024px') {
     font-size:16px;
   }
-
 }
 
 .topRightInfoTxt p {
   padding:2px 35px;
 
-  @media screen and (min-width: '768px') and (max-width: '993px') {
-    padding:0 7px;
-  }
+    @media screen and (min-width: '768px') and (max-width: '993px') {
+      padding:0 7px;
+    }
 
-  @media screen and (min-width: '768px') and (max-width: '910px') {
-    font-size:11px;
-  }
-
-
-  @media #{$medium} {
-    //padding:2px 15px;
-  }
-
-  @media #{$tablet} {
-    //padding:0 7px;
-  }
+    @media screen and (min-width: '768px') and (max-width: '910px') {
+      font-size:11px;
+    }
 }
 
 #homeTopRightInfo #yellowBox {
@@ -324,24 +304,23 @@ header nav {
   position:relative;
   width:100%;
 
-  @media screen and (min-width: '768px') and (max-width: '1024px') {
-    padding-top: 59px;
-  }
+    @media screen and (min-width: '768px') and (max-width: '1024px') {
+      padding-top: 59px;
+    }
 
-  @media screen and (min-width: '768px') and (max-width: '894px') {
-    padding-top:31px;
-  }
+    @media screen and (min-width: '768px') and (max-width: '894px') {
+      padding-top:31px;
+    }
 
-  @media #{$large} {
-    padding-bottom:18px;
-  }
+    @media #{$large} {
+      padding-bottom:18px;
+    }
 }
 
 #yellowBox .activeInfo {
   background-image:url(../images/home_top_right_active_banner-480.png);
   top:10px;
   z-index:100;
-
   width: 109%;
   height: 82px;
   background-size: 100% 100%;
@@ -383,14 +362,14 @@ header nav {
   right: -37px;
   bottom: -49px;
 
-  @media #{$medium} {
-    bottom: -30px;
-    right: -60px;
-  }
+    @media #{$medium} {
+      bottom: -30px;
+      right: -60px;
+    }
 
-  @media #{$tablet} {
-    bottom: -50px;
-  }
+    @media #{$tablet} {
+      bottom: -50px;
+    }
 }
 
 #yellowBox hr {
@@ -403,6 +382,10 @@ header nav {
   }
 }
 
+
+
+
+// Mid-Section (blogs, classes, twitter) ------------------------------ //
 
 #midSection {
   min-height: inherit;
@@ -423,6 +406,24 @@ header nav {
     }
 }
 
+span.sectionFooterBanner {
+  left:0 !important;
+  bottom:20px;
+  width:100%;
+}
+
+#home_mid_title {
+  position:static;
+  height:56px;
+}
+
+#home_mid_title h4 {
+  padding: 18px 0 0 0;
+  width:100%;
+}
+
+
+// Twitter
 #home_twitter_box {
   width:100%;
 }
@@ -439,25 +440,20 @@ header nav {
     }
 }
 
-span.sectionFooterBanner {
-  left:0 !important;
-  bottom:20px;
-  width:100%;
-}
 
+// Upcoming Classes
 .class_item {
   height:auto;
 }
 
-#home_mid_title {
-  position:static;
-  height:56px;
+.class_listing {
+  padding:0;
 }
 
-#home_mid_title h4 {
-  padding: 18px 0 0 0;
-  width:100%;
-}
+
+
+
+// Client Logo Carousel ----------------------------------------------- //
 
 .carousel-wrap {
   background:url(../old/images/home_logo_car_bg.png) repeat-x center top;
@@ -466,21 +462,22 @@ span.sectionFooterBanner {
 .carousel .item img {
   height:auto;
   width:100%;
-  @media #{$large} {
-    height:308px;
-  }
+
+    @media #{$large} {
+      height:308px;
+    }
 }
 
 #client_carousel {
   position:static;
-}
 
-#client_carousel .slider {
-  width:100%;
-}
+  .slider {
+    width:100%;
 
-#client_carousel .slider ul {
-  width:100%;
+    ul {
+      width:100%;
+    }
+  }
 }
 
 #carouselWrapper {
@@ -491,14 +488,18 @@ span.sectionFooterBanner {
   width:100%
 }
 
-#client_carousel .controls .next-slide {
-  //right:inherit;
-  //left:92%;
 
-    @media #{$large} {
-      //right:0;
-      //left:inherit;
-    }
+
+
+// Footer ------------------------------------------------------------- //
+
+.banner-nerdvana {
+  background: url(../images/banner-nerdvana.png) no-repeat center center;
+  left:0;
+  position:absolute;
+  height:58px;
+  top:-29px;
+  width:100%;
 }
 
 footer {
@@ -507,14 +508,6 @@ footer {
   height:inherit;
   padding:0 0 110px 0;
   position:relative;
-}
-
-footer .columns:last-child {
-  //width:20%;
-}
-
-footer #legal_info {
-  position:static;
 }
 
 footer .footerCol {
@@ -529,47 +522,47 @@ footer #col_1 {
   width:100%;
 }
 
+footer > section.row {
+  padding-top: 40px;
+  min-height: 220px;
+
+  @media #{$large} {
+    background: url(../images/nerdvana-text.png) no-repeat center 0;
+  }
+}
+
+
+// Footer nav links
 .footer-nav-wrap {
   background:url(../images/bkg-footer-nav.jpg) repeat-x center top;
   clear:both;
   height:54px;
-
-  nav {
-    //margin-top:9px;
-  }
 }
 
 .footer-nav-wrap > .row {
   position:relative;
 }
 
-footer > section.row {
-  padding-top: 40px;
-  min-height: 220px;
-
-    @media #{$large} {
-      background: url(../images/nerdvana-text.png) no-repeat center 0;
-    }
-}
-
 footer nav ul {
   padding:5px;
 
-  @media #{$small} {
-    padding:15px 0 0 0;
-  }
+    @media #{$small} {
+      padding:15px 0 0 0;
+    }
 }
 
 footer nav ul li a {
   @include remFont(15);
 
-  @media #{$small} {
-    @include remFont(13);
-  }
+    @media #{$small} {
+      @include remFont(13);
+    }
 }
 
-.class_listing {
-  padding:0;
+
+// Legal
+footer #legal_info {
+  position:static;
 }
 
 .legalText {
@@ -586,38 +579,27 @@ footer nav ul li a {
   }
 }
 
+
+// Student Login Button
 div.studentLoginBtn {
   width: 147px;
   margin:12px auto 0 auto;
   position:static;
 
-  @media #{$medium} {
-    position:absolute;
-    bottom: inherit;
-    left:inherit;
-    margin:0;
-    right:30px;
-    top: 11px;
-  }
-
-  @media #{$large} {
-
-  }
-
-
+    @media #{$medium} {
+      position:absolute;
+      bottom: inherit;
+      left:inherit;
+      margin:0;
+      right:30px;
+      top: 11px;
+    }
 }
 
+
+// Stay Connected signup form
 .mc-field-group.base input {
   width:184px !important;
-}
-
-.banner-nerdvana {
-  background: url(../images/banner-nerdvana.png) no-repeat center center;
-  left:0;
-  position:absolute;
-  height:58px;
-  top:-29px;
-  width:100%;
 }
 
 .stay-connected {
@@ -626,17 +608,14 @@ div.studentLoginBtn {
   @media #{$medium} {
     min-width: 351px;
   }
-
-  @media #{$large} {
-    //width:203px;
-  }
 }
 
 .ranch-report {
   display:none;
-  @media #{$medium} {
-    display:block;
-  }
+
+    @media #{$medium} {
+      display:block;
+    }
 }
 
 #mc_embed_signup {
@@ -646,9 +625,10 @@ div.studentLoginBtn {
 #mc_embed_signup,
 .mc-field-group.base input {
   width:100% !important;
-  @media #{$medium} {
-    width:inherit;
-  }
+
+    @media #{$medium} {
+      width:inherit;
+    }
 }
 
 .mc-field-group.base input {
@@ -661,17 +641,13 @@ div.studentLoginBtn {
 }
 
 
-.social-nerds {
-
-}
-
+// Nerd Awards
 .nerd-awards {
   position:static;
-  //width:150px;
 
-  @media #{$medium} {
-   min-width:175px;
-  }
+    @media #{$medium} {
+     min-width:175px;
+    }
 
   img {
     float:none;
