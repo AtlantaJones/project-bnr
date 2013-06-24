@@ -97,6 +97,15 @@ body {
 
 // Header ------------------------------------------------------------- //
 
+.fb_text,
+#fb_like {
+  float:right;
+}
+
+#fb_like {
+  padding-top:9px;
+}
+
 #fullContainer {
   //min-height:1000px;
   //overflow:auto;
@@ -127,6 +136,7 @@ span.hide-for-small {
 }
 
 header {
+  background-position:center center;
   z-index:1000;
 }
 
@@ -467,6 +477,28 @@ span.sectionFooterBanner {
 
 #client_carousel .slider {
   width:100%;
+}
+
+#client_carousel .slider ul {
+  width:100%;
+}
+
+#carouselWrapper {
+  width:87%;
+}
+
+#client_carousel .controls {
+  width:100%
+}
+
+#client_carousel .controls .next-slide {
+  //right:inherit;
+  //left:92%;
+
+    @media #{$large} {
+      //right:0;
+      //left:inherit;
+    }
 }
 
 footer {

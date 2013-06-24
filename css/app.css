@@ -4298,6 +4298,15 @@ body {
   background: url("");
 }
 
+.fb_text,
+#fb_like {
+  float: right;
+}
+
+#fb_like {
+  padding-top: 9px;
+}
+
 @media only screen and (min-width: 48em) {
   span.hide-for-small {
     display: inline !important;
@@ -4323,6 +4332,7 @@ body {
 }
 
 header {
+  background-position: center center;
   z-index: 1000;
 }
 
@@ -4664,6 +4674,18 @@ span.sectionFooterBanner {
 }
 
 #client_carousel .slider {
+  width: 100%;
+}
+
+#client_carousel .slider ul {
+  width: 100%;
+}
+
+#carouselWrapper {
+  width: 87%;
+}
+
+#client_carousel .controls {
   width: 100%;
 }
 
